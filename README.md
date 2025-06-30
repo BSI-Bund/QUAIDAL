@@ -1,4 +1,4 @@
-# QUAIDAL – Qualitätskriterien für Trainingsdaten im im KI-Datenlebenszyklus
+# QUAIDAL – Qualitätskriterien für KI-Trainingsdaten im KI-Datenlebenszyklus
 
 ## Übersicht
 
