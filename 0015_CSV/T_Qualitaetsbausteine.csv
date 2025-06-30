@@ -1,0 +1,5471 @@
+id;name;title;titleGer;shortdesc;sciencetopic;tags;source;share;refs;yaml_id;fulltext
+1;QB-01 Syntaktische Genauigkeit;QB-01 Syntaktische Genauigkeit;QB-01 Syntaktische Genauigkeit;Genauigkeit der Datenstruktur gemäß grammatikalischen Regeln und Syntax;;Qualitätsbaustein;;1;;QB-01;"<!DOCTYPE html>
+
+<html lang="""" xml:lang="""" xmlns=""http://www.w3.org/1999/xhtml"">
+<head>
+<meta charset=""utf-8""/>
+<meta content=""pandoc"" name=""generator""/>
+<meta content=""width=device-width, initial-scale=1.0, user-scalable=yes"" name=""viewport""/>
+<title>-</title>
+<style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type=""checkbox""] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<h2 id=""qb-01-syntaktische-genauigkeit"">QB-01 Syntaktische
+Genauigkeit</h2>
+<h3 id=""beschreibung"">Beschreibung</h3>
+<p>Ein Ausdruck ist syntaktisch genau, wenn alle festgelegten Formregeln
+exakt eingehalten werden – unabhängig davon, ob es sich um natürliche
+Sprache, Programmiersprachen oder andere Datentypen handelt.</p>
+<p>Diese korrekte Anordnung und Verbindung der Elemente führt dazu, dass
+der Datensatz in seiner formalen Struktur fehlerfrei ist und problemlos
+von Parsern oder Sprachmodellen verarbeitet werden kann, was vor allem
+in der Informatik und in der formalen Sprachtheorie von großer Bedeutung
+ist.</p>
+<p>Dabei bezieht sich syntaktische Genauigkeit ausschließlich auf die
+Einhaltung der strukturellen Regeln und nicht auf den Inhalt. Ein
+Ausdruck kann also formal korrekt sein, auch wenn seine inhaltliche
+Aussage unklar oder widersinnig erscheint. Diese Unterscheidung zwischen
+rein formaler und semantischer Genauigkeit ist grundlegend für das
+Verständnis und die Analyse von Daten in verschiedenen Kontexten.</p>
+<h3 id=""beispiele"">Beispiele</h3>
+<h4 id=""grammatiken-nlp-code"">Grammatiken (NLP, Code)</h4>
+<p>Im Rahmen der maschinellen Übersetzung ist es entscheidend,
+syntaktisch korrekte Daten zu verwenden. Die Strukturen der Eingangs-
+und Zielsprache sind zu erfassen und reproduzieren.</p>
+<h4 id=""rechtschreibprüfung"">Rechtschreibprüfung</h4>
+<p>Bei der Rechtschreibprüfung werden Trainingsdaten verwendet, die
+Sätze und Texte mit korrekt angewendeter Grammatik und Syntax enthalten,
+sowie markierte Fehler und deren Korrekturen. Diese Daten helfen dabei,
+ein Modell zu trainieren, das in der Lage ist, typische Rechtschreib-
+und Grammatikfehler zu erkennen und Vorschläge zur Korrektur zu machen.
+Ein Beispiel wäre der Satz ""He go to the store,"" der vom Modell als
+falsch erkannt und zu ""He goes to the store"" korrigiert wird.</p>
+<h3 id=""maßnahmen"">Maßnahmen</h3>
+<table class=""Table Grid"">
+<thead>
+<tr class=""header"">
+<th>Maßnahme</th>
+<th>Kurzbeschr.</th>
+</tr>
+</thead>
+<tbody>
+<tr class=""odd"">
+<td>MA-01 Datentyp Validierung</td>
+<td>Eine sorgfältige Validierung der Datentypen stellt sicher, dass
+Trainings- und Eingabedaten den erwarteten Typen des Modells
+entsprechen, wodurch fehlerhafte Datenpunkte erkannt und gegebenenfalls
+korrigiert oder entfernt werden können.</td>
+</tr>
+<tr class=""even"">
+<td>MA-02 Format Prüfung</td>
+<td>Inhalte mittels Formatierungsprüfung auf Korrektheit prüfen</td>
+</tr>
+<tr class=""odd"">
+<td>MA-03_Range Check</td>
+<td>Bereichsprüfung erkennt Ausreißer und falsche Daten in
+Merkmalen</td>
+</tr>
+<tr class=""even"">
+<td>MA-04_Over-Undersampling</td>
+<td>Oversampling erhöht die Anzahl der Minderheitenklasse durch kopierte
+oder synthetische Beispiele, oft mit SMOTE, während beim Undersampling
+Datenpunkte der Majoritätsklasse entfernt werden, um ein
+Klassen-Gleichgewicht zu erreichen.</td>
+</tr>
+<tr class=""odd"">
+<td>MA-05 Automatisierte Aufgaben</td>
+<td>Skripte können wiederkehrende Aufgaben automatisieren</td>
+</tr>
+<tr class=""even"">
+<td>MA-27 StatisticalBasics</td>
+<td>Sammelobjekt für statistische Grundlagen</td>
+</tr>
+</tbody>
+</table>
+<h3 id=""referenzen"">Referenzen</h3>
+<table class=""Table Grid"">
+<thead>
+<tr class=""header"">
+<th>RefID</th>
+<th>Verweis</th>
+<th>Kurzbeschr.</th>
+</tr>
+</thead>
+<tbody>
+<tr class=""odd"">
+<td>192</td>
+<td>Scaling Laws for Data Poisoning in LLMs</td>
+<td>Aktuelle Untersuchungen zeigen, dass LLMs anfällig für
+Datenvergiftung sind, bei der maliziöse oder fehlerhafte Daten zu
+schädlichem Verhalten führen. Die Studie untersucht drei
+Bedrohungsmodelle: böswillige Feinabstimmung, schlechte Datenverwaltung
+und absichtliche Kontamination. Experimente an 23 LLMs zeigen, dass
+größere Modelle anfälliger sind und schädliches Verhalten schneller
+erlernen. Dies unterstreicht die Notwendigkeit stärkerer Schutzmaßnahmen
+im Zuge der Skalierung von LLMs.</td>
+</tr>
+<tr class=""even"">
+<td>190</td>
+<td>Kriterienkatalog C5</td>
+<td>Der C5 (Cloud Computing Compliance Criteria Catalogue) des
+Bundesamts für Sicherheit in der Informationstechnik (BSI) stellt einen
+detaillierten Kriterienkatalog dar, der grundlegende Anforderungen an
+die Informationssicherheit von Cloud-Diensten festlegt.</td>
+</tr>
+<tr class=""odd"">
+<td>189</td>
+<td>Kriterienkatalog für KI-Cloud-Dienste – AIC4</td>
+<td>Der AIC4 (Artificial Intelligence Cloud Services Compliance Criteria
+Catalogue) ist ein Kriterienkatalog entwickelt vom Bundesamt für
+Sicherheit in der Informationstechnik (BSI) mit dem Ziel, die Sicherheit
+von KI-basierten Clouddiensten zu verbessern und zu
+standardisieren.</td>
+</tr>
+<tr class=""even"">
+<td>33</td>
+<td>ISO/IEC 25012:2008 - Software engineering — Software product Quality
+Requirements and Evaluation (SQuaRE) — Data quality model</td>
+<td>Softwareentwicklung – Qualitätsanforderungen und Bewertung von
+Softwareprodukten (SQuaRE) – Datenqualitätsmodell</td>
+</tr>
+<tr class=""odd"">
+<td>31</td>
+<td>ISO/IEC 24029-2:2023 - Robustness of neural networks – Part 2:
+Methodology for the use of formal methods</td>
+<td>Dieses Dokument beschreibt eine Methodik zur Auswahl, Anwendung und
+Verwaltung formaler Methoden zur Bewertung und zum Nachweis der
+Robustheitseigenschaften von neuronalen Netzen.</td>
+</tr>
+<tr class=""even"">
+<td>16</td>
+<td>ISO 19157-1:2023 - Geographic information — Data quality — Part 1:
+General requirements</td>
+<td>Dieses Dokument legt die Prinzipien zur Beschreibung der Qualität
+geografischer Daten fest, definiert ein System und Prozesse zur
+Beschreibung der Datenqualität, spezifiziert Qualitätsmesskomponenten,
+beschreibt Verfahren zur Qualitätsbewertung und Prinzipien zur
+Berichterstattung, ohne Mindestqualitätsniveaus festzulegen.</td>
+</tr>
+<tr class=""odd"">
+<td>11</td>
+<td>ISO/TS 8000-82:2022 - Data quality — Part 82: Data quality
+assessment: Creating data rules</td>
+<td>Die ISO/TS 8000-82:2022 behandelt die Datenqualitätsbewertung durch
+Anwendung von Datenregeln auf verschiedene Datentypen, einschließlich
+Identifikatoren, Währungen und Datums-/Zeitangaben. Sie betont die
+Bedeutung von Datenprofiling bei der Formulierung effektiver
+Datenregeln, um die Integrität und Zuverlässigkeit von Daten in
+Informationssystemen sicherzustellen.</td>
+</tr>
+<tr class=""even"">
+<td>10</td>
+<td>ISO/TS 8000-81:2021 - Data quality — Part 81: Data quality
+assessment: Profiling</td>
+<td>Die ISO/TS 8000-81:2021 legt ein Verfahren für Datenprofiling zur
+Bewertung der Datenqualität fest, das sich auf Strukturanalyse,
+Spaltenanalyse und Beziehungsanalyse konzentriert. Sie ist auf
+tabellarische Daten anwendbar, behandelt jedoch keine Methoden zur
+Datenextraktion oder Regelableitung und kann sowohl eigenständig als
+auch zusammen mit Qualitätsmanagementsystem-Standards verwendet
+werden.</td>
+</tr>
+<tr class=""odd"">
+<td>2</td>
+<td>ISO 8000-8:2015 - Data quality — Part 8: Information and data
+quality: Concepts and measuring</td>
+<td>Diese Norm bietet eine Übersicht über die Konzepte und Messmethoden
+für Datenqualität. Sie umfasst Genauigkeit als eines der wesentlichen
+Merkmale zur Bewertung der Datenqualität.</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
+"
+2;QB-02_Semantic Accuracy;QB-02 Semantische Genauigkeit;QB-02 Semantische Genauigkeit;Genauigkeit bzgl. Bedeutung und Kontext in Daten;;Qualitätsbaustein;;1;;QB-02;"<!DOCTYPE html>
+
+<html lang="""" xml:lang="""" xmlns=""http://www.w3.org/1999/xhtml"">
+<head>
+<meta charset=""utf-8""/>
+<meta content=""pandoc"" name=""generator""/>
+<meta content=""width=device-width, initial-scale=1.0, user-scalable=yes"" name=""viewport""/>
+<title>-</title>
+<style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type=""checkbox""] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<h2 id=""qb-02-semantische-genauigkeit"">QB-02 Semantische
+Genauigkeit</h2>
+<h3 id=""beschreibung"">Beschreibung</h3>
+<p>Semantische Genauigkeit bestimmt sich über die inhaltliche
+Korrektheit der Daten. Werden Katzen beispielsweise als Fahrzeuge
+klassifiziert, kann hier trotz allem eine syntaktische Korrektheit über
+das Format der Daten vorherrschen, allerdings sind die Inhalte
+inkorrekt.</p>
+<p>Während syntaktische Genauigkeit sicherstellt, dass ein Datenwert
+formal korrekt aufgebaut ist (z.B. korrektes Datumsformat „2025-04-11“),
+geht es bei semantischer Genauigkeit darum, dass der Inhalt des Werts
+bedeutungsmäßig richtig interpretiert werden kann.</p>
+<p>Semantische Genauigkeit bezeichnet die Übereinstimmung von Daten mit
+ihrer beabsichtigten Bedeutung im jeweiligen Anwendungskontext. Im
+Gegensatz zu syntaktischer Genauigkeit lässt sich semantische
+Genauigkeit wesentlich schwieriger bewerten, da u.a. Domänenwissen dafür
+notwendig ist.</p>
+<h3 id=""beispiele"">Beispiele</h3>
+<ul>
+<li><p><strong>Datenfeld:</strong> `{""Geburtsdatum"": ""1990-01-01""}</p>
+<ul>
+<li>Syntaktisch genau: Ja – korrektes Datumsformat nach ISO 8601</li>
+<li>Semantisch genau: Nur, wenn dieses Datum tatsächlich das echte
+Geburtsdatum der Person ist.</li>
+</ul></li>
+<li><p><strong>Datenfeld:</strong> <code>{""Alter"": ""25""}</code> (für
+eine Person, die 1990 geboren wurde und die Daten wurden 2025
+erhoben)</p>
+<ul>
+<li>Syntaktisch genau: Ja – eine ganze Zahl.</li>
+<li>Semantisch ungenau: Ja – das Alter ist inhaltlich nicht plausibel,
+da die Person 35 Jahre (Geburtsdatum: 1990-01-01) alt sein müsste.</li>
+</ul></li>
+</ul>
+<h3 id=""maßnahmen"">Maßnahmen</h3>
+<table class=""Table Grid"">
+<thead>
+<tr class=""header"">
+<th>Maßnahme</th>
+<th>Kurzbeschr.</th>
+</tr>
+</thead>
+<tbody>
+<tr class=""odd"">
+<td>MA-05 Automatisierte Aufgaben</td>
+<td>Skripte können wiederkehrende Aufgaben automatisieren</td>
+</tr>
+<tr class=""even"">
+<td>MA-06_Expert Evaluation</td>
+<td>Ein Experte prüft die Daten manuell.</td>
+</tr>
+<tr class=""odd"">
+<td>MA-07 Crowdsourcing</td>
+<td>Einbeziehung größerer Menschengruppen zur Prüfung der Daten.</td>
+</tr>
+<tr class=""even"">
+<td>MA-27 StatisticalBasics</td>
+<td>Sammelobjekt für statistische Grundlagen</td>
+</tr>
+</tbody>
+</table>
+<h3 id=""referenzen"">Referenzen</h3>
+<table class=""Table Grid"">
+<thead>
+<tr class=""header"">
+<th>RefID</th>
+<th>Verweis</th>
+<th>Kurzbeschr.</th>
+</tr>
+</thead>
+<tbody>
+<tr class=""odd"">
+<td>2</td>
+<td>ISO 8000-8:2015 - Data quality — Part 8: Information and data
+quality: Concepts and measuring</td>
+<td>Diese Norm bietet eine Übersicht über die Konzepte und Messmethoden
+für Datenqualität. Sie umfasst Genauigkeit als eines der wesentlichen
+Merkmale zur Bewertung der Datenqualität.</td>
+</tr>
+<tr class=""even"">
+<td>10</td>
+<td>ISO/TS 8000-81:2021 - Data quality — Part 81: Data quality
+assessment: Profiling</td>
+<td>Die ISO/TS 8000-81:2021 legt ein Verfahren für Datenprofiling zur
+Bewertung der Datenqualität fest, das sich auf Strukturanalyse,
+Spaltenanalyse und Beziehungsanalyse konzentriert. Sie ist auf
+tabellarische Daten anwendbar, behandelt jedoch keine Methoden zur
+Datenextraktion oder Regelableitung und kann sowohl eigenständig als
+auch zusammen mit Qualitätsmanagementsystem-Standards verwendet
+werden.</td>
+</tr>
+<tr class=""odd"">
+<td>11</td>
+<td>ISO/TS 8000-82:2022 - Data quality — Part 82: Data quality
+assessment: Creating data rules</td>
+<td>Die ISO/TS 8000-82:2022 behandelt die Datenqualitätsbewertung durch
+Anwendung von Datenregeln auf verschiedene Datentypen, einschließlich
+Identifikatoren, Währungen und Datums-/Zeitangaben. Sie betont die
+Bedeutung von Datenprofiling bei der Formulierung effektiver
+Datenregeln, um die Integrität und Zuverlässigkeit von Daten in
+Informationssystemen sicherzustellen.</td>
+</tr>
+<tr class=""even"">
+<td>16</td>
+<td>ISO 19157-1:2023 - Geographic information — Data quality — Part 1:
+General requirements</td>
+<td>Dieses Dokument legt die Prinzipien zur Beschreibung der Qualität
+geografischer Daten fest, definiert ein System und Prozesse zur
+Beschreibung der Datenqualität, spezifiziert Qualitätsmesskomponenten,
+beschreibt Verfahren zur Qualitätsbewertung und Prinzipien zur
+Berichterstattung, ohne Mindestqualitätsniveaus festzulegen.</td>
+</tr>
+<tr class=""odd"">
+<td>24</td>
+<td>ISO/IEC 8183:2023 - Information technology — Artificial intelligence
+— Data life cycle framework</td>
+<td>Das Dokument definiert die Phasen und Maßnahmen der
+Datenverarbeitung im Lebenszyklus von KI-Systemen und ist für alle
+Organisationen unabhängig von deren Art, Größe oder Natur
+anwendbar.</td>
+</tr>
+<tr class=""even"">
+<td>31</td>
+<td>ISO/IEC 24029-2:2023 - Robustness of neural networks – Part 2:
+Methodology for the use of formal methods</td>
+<td>Dieses Dokument beschreibt eine Methodik zur Auswahl, Anwendung und
+Verwaltung formaler Methoden zur Bewertung und zum Nachweis der
+Robustheitseigenschaften von neuronalen Netzen.</td>
+</tr>
+<tr class=""odd"">
+<td>155</td>
+<td>ISO 8000-110:2021 - Data quality — Part 110: Master data: Exchange
+of characteristic data: Syntax, semantic encoding, and conformance to
+data specification</td>
+<td>Das Dokument legt Anforderungen für den Austausch von
+Stammdatenmeldungen mit Fokus auf Syntax, semantische Kodierung und
+Datenspezifikationen fest und betont, dass diese allein nicht
+ausreichen, um die vollständige Datenqualität zu gewährleisten, da auch
+Aspekte wie Genauigkeit und Herkunft berücksichtigt werden müssen.</td>
+</tr>
+<tr class=""even"">
+<td>189</td>
+<td>Kriterienkatalog für KI-Cloud-Dienste – AIC4</td>
+<td>Der AIC4 (Artificial Intelligence Cloud Services Compliance Criteria
+Catalogue) ist ein Kriterienkatalog entwickelt vom Bundesamt für
+Sicherheit in der Informationstechnik (BSI) mit dem Ziel, die Sicherheit
+von KI-basierten Clouddiensten zu verbessern und zu
+standardisieren.</td>
+</tr>
+<tr class=""odd"">
+<td>190</td>
+<td>Kriterienkatalog C5</td>
+<td>Der C5 (Cloud Computing Compliance Criteria Catalogue) des
+Bundesamts für Sicherheit in der Informationstechnik (BSI) stellt einen
+detaillierten Kriterienkatalog dar, der grundlegende Anforderungen an
+die Informationssicherheit von Cloud-Diensten festlegt.</td>
+</tr>
+<tr class=""even"">
+<td>192</td>
+<td>Scaling Laws for Data Poisoning in LLMs</td>
+<td>Aktuelle Untersuchungen zeigen, dass LLMs anfällig für
+Datenvergiftung sind, bei der maliziöse oder fehlerhafte Daten zu
+schädlichem Verhalten führen. Die Studie untersucht drei
+Bedrohungsmodelle: böswillige Feinabstimmung, schlechte Datenverwaltung
+und absichtliche Kontamination. Experimente an 23 LLMs zeigen, dass
+größere Modelle anfälliger sind und schädliches Verhalten schneller
+erlernen. Dies unterstreicht die Notwendigkeit stärkerer Schutzmaßnahmen
+im Zuge der Skalierung von LLMs.</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
+"
+3;QB-03_Diversity;QB-03 Vielfalt;QB-03 Vielfalt;Vielfalt deckt die Verschiedenartigkeit und das Variationspotential von Werten ab.;;Qualitätsbaustein;;1;;QB-03;"<!DOCTYPE html>
+
+<html lang="""" xml:lang="""" xmlns=""http://www.w3.org/1999/xhtml"">
+<head>
+<meta charset=""utf-8""/>
+<meta content=""pandoc"" name=""generator""/>
+<meta content=""width=device-width, initial-scale=1.0, user-scalable=yes"" name=""viewport""/>
+<title>-</title>
+<style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type=""checkbox""] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<h2 id=""qb-03-vielfalt"">QB-03 Vielfalt</h2>
+<h3 id=""beschreibung"">Beschreibung</h3>
+<p>Vielfalt deckt die Verschiedenartigkeit und das Variationspotential
+von Werten ab. Durch das breite Spektrum von Werten auf den vorhandenen
+Skalen kann eine Verbesserung herbeigeführt werden. Die Abgrenzung zu
+Ausgewogenheit besteht darin, dass Vielfalt versucht die Varianz der
+Trainingsdaten zu maximieren, während Ausgewogenheit darauf abzielt eine
+gerechte und gleichmäßige Verteilung der Daten in den relevanten
+Merkmalen sicherzustellen.</p>
+<p>Synonyme für Vielfalt sind bspw.: Varianz oder Heterogenität.
+Vielfalt bezieht sich auf die Präsenz und/oder die Integration einer
+breiten Palette unterschiedlicher Elemente oder Merkmale innerhalb eines
+Systems. Balance und Ausgewogenheit hingegen beziehen sich auf die
+harmonische Verteilung dieser Elemente, um ein stabiles und
+gleichmäßiges Verhältnis zu gewährleisten.</p>
+<h3 id=""beispiele"">Beispiele</h3>
+<h4 id=""gesichtserkennungstechnologien"">Gesichtserkennungstechnologien</h4>
+<p>Frühe Versionen von Gesichtserkennungssystemen waren oft auf
+Trainingsdatensätzen trainiert, denen es an Vielfalt gemangelt hat.
+Durch eine überwiegende Anzahl von Bildern von Menschen mit heller
+Hautfarbe wurden unausgewogene Datensätze erzeugt.</p>
+<h4 id=""spracherkennungssysteme"">Spracherkennungssysteme</h4>
+<p>Die Vielfalt menschlicher Sprache muss ebenfalls in
+Trainingsdatensätzen wiedergegeben werden. Dialekte, Jargons und Akzente
+müssen bei solchen Datensätzen im Auge behalten werden.</p>
+<h3 id=""maßnahmen"">Maßnahmen</h3>
+<table class=""Table Grid"">
+<thead>
+<tr class=""header"">
+<th>Maßnahme</th>
+<th>Kurzbeschr.</th>
+</tr>
+</thead>
+<tbody>
+<tr class=""odd"">
+<td>MA-08_DistributionAnalysis</td>
+<td>Analyse der Trainingsdaten für bessere Modellleistung und hilft
+Muster, Trends und mögliche Anomalien zu finden.</td>
+</tr>
+<tr class=""even"">
+<td>MA-09_CompareGroundtruth</td>
+<td>""Ground Truth""-Test überprüft Modellqualität mit eindeutigen
+Referenzdaten.</td>
+</tr>
+<tr class=""odd"">
+<td>MA-10_ManualWeights</td>
+<td>Manuelle Gewichtung reduziert Bias und verbessert
+Generalisierung.</td>
+</tr>
+<tr class=""even"">
+<td>MA-12 Abdeckung relevanter Merkmale</td>
+<td>Abdeckung aller wichtigen Merkmale im Datensatz zur
+Modellierung.</td>
+</tr>
+<tr class=""odd"">
+<td>MA-27 StatisticalBasics</td>
+<td>Sammelobjekt für statistische Grundlagen</td>
+</tr>
+<tr class=""even"">
+<td>MA-28_Diversity-Indices</td>
+<td>Diversity Indices sind Kennzahlen, die die Vielfalt innerhalb eines
+Systems messbar machen.</td>
+</tr>
+</tbody>
+</table>
+<h3 id=""referenzen"">Referenzen</h3>
+<table class=""Table Grid"">
+<thead>
+<tr class=""header"">
+<th>RefID</th>
+<th>Verweis</th>
+<th>Kurzbeschr.</th>
+</tr>
+</thead>
+<tbody>
+<tr class=""odd"">
+<td>2</td>
+<td>ISO 8000-8:2015 - Data quality — Part 8: Information and data
+quality: Concepts and measuring</td>
+<td>Diese Norm bietet eine Übersicht über die Konzepte und Messmethoden
+für Datenqualität. Sie umfasst Genauigkeit als eines der wesentlichen
+Merkmale zur Bewertung der Datenqualität.</td>
+</tr>
+<tr class=""even"">
+<td>25</td>
+<td>ISO/IEC 20546:2019 - Information technology — Big data — Overview
+and vocabulary</td>
+<td>Information technology — Big data — Overview and vocabulary bietet
+eine umfassende Übersicht über Big Data, einschließlich der
+Terminologie, Konzepte und allgemeinen Prinzipien, die mit Big
+Data-Technologien und -Anwendungen verbunden sind. Es dient als
+Grundlage für das Verständnis und die Kommunikation im Bereich Big
+Data.</td>
+</tr>
+<tr class=""odd"">
+<td>37</td>
+<td>ISO/IEC 38507:2022 - Information technology — Governance of IT —
+Governance implications of the use of artificial intelligence by
+organizations</td>
+<td>Die ISO/IEC 38507 bietet Leitlinien für die IT-Governance im Kontext
+des Einsatzes von KI durch Organisationen. Es beleuchtet die
+Verantwortlichkeiten und Prozesse, die notwendig sind, um den Einsatz
+von KI effektiv und ethisch zu steuern.</td>
+</tr>
+<tr class=""even"">
+<td>40</td>
+<td>ISO/IEC TR 24027:2021 - Information technology — Artificial
+intelligence (AI) — Bias in AI systems and AI aided decision making</td>
+<td>Der Bericht untersucht Bias in KI-Systemen und betont, dass
+hochwertige Trainingsdaten essenziell sind, um Verzerrungen zu
+reduzieren und faire, gerechte Entscheidungen zu ermöglichen.</td>
+</tr>
+</tbody>
+</table>
+<p>``</p>
+</body>
+</html>
+"
+4;QB-04_Balance;QB-04_Balance;QB-04 Ausgewogenheit;Ausgewogenheit sichert gleichmäßige Verteilung, Vielfalt maximiert Varianz.;;Qualitätsbaustein;;1;;QB-04;"<!DOCTYPE html>
+
+<html lang="""" xml:lang="""" xmlns=""http://www.w3.org/1999/xhtml"">
+<head>
+<meta charset=""utf-8""/>
+<meta content=""pandoc"" name=""generator""/>
+<meta content=""width=device-width, initial-scale=1.0, user-scalable=yes"" name=""viewport""/>
+<title>-</title>
+<style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type=""checkbox""] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<h2 id=""qb-04-ausgewogenheit"">QB-04 Ausgewogenheit</h2>
+<h3 id=""beschreibung"">Beschreibung</h3>
+<p>Bei der Erstellung eines Trainingsdatensatzes ist die
+<strong>quantitative Verteilung</strong> sehr wichtig: Datenpunkte,
+Kategorien und Merkmale sollten in ihrem Auftreten proportional zur
+angestrebten Realität abgebildet sein, sodass keine Gruppe über- oder
+unterrepräsentiert wird. Eine möglichst gleichgewichtete Verteilung
+aller relevanten Klassen – idealerweise mit gleichem Anteil je Kategorie
+– verhindert, dass einzelne Klassen dominieren und das Modell einseitig
+lernt.</p>
+<p>Gleichzeitig wirkt diese Vorgehensweise als Schutz gegen Bias und
+Overfitting, denn eine ausgewogene Datenbasis verringert systematische
+Verzerrungen und beugt einer Überanpassung an häufig vorkommende Muster
+vor.</p>
+<p>Wichtig ist dabei die Abgrenzung zur Vielfalt im engeren Sinne:
+Anders als das Ziel, möglichst viele unterschiedliche
+Merkmalsausprägungen (Heterogenität) abzubilden, liegt der Schwerpunkt
+hier auf einer statistisch gleichmäßigen Verteilung. Denn nur so wird
+gewährleistet, dass das Modell nicht im Training seltene Klassen
+vernachlässigt und seine Fähigkeit zur Generalisation – also zur
+Verallgemeinerung auf neue, ungesehene Daten – nicht durch eine
+Unterrepräsentation seltener Fälle beeinträchtigt wird.</p>
+<h3 id=""beispiele"">Beispiele</h3>
+<h4 id=""ausgewogene-gegen-unausgewogene-binäre-klassifikation"">Ausgewogene
+gegen unausgewogene binäre Klassifikation</h4>
+<h5 id=""ausgewogener-datensatz"">Ausgewogener Datensatz:</h5>
+<ul>
+<li>Klasse A: 500 Beispiele</li>
+<li>Klasse B: 500 Beispiele</li>
+</ul>
+<h5 id=""unausgewogener-datensatz"">Unausgewogener Datensatz</h5>
+<ul>
+<li>Klasse A: 900 Beispiele</li>
+<li>Klasse B: 100 Beispiele</li>
+</ul>
+<p>Hier ist Klasse A stark überrepräsentiert. Ein Modell, das mit diesem
+Datensatz trainiert wird, könnte eine Verzerrung zugunsten von Klasse A
+entwickeln.</p>
+<h4 id=""ausgewogene-gegen-unausgewogene-multiklassenklassifikation"">Ausgewogene
+gegen unausgewogene Multiklassenklassifikation</h4>
+<h5 id=""ausgewogener-datensatz-1"">Ausgewogener Datensatz</h5>
+<ul>
+<li>Klasse A: 300 Beispiele</li>
+<li>Klasse B: 300 Beispiele</li>
+<li>Klasse C: 300 Beispiele</li>
+</ul>
+<p>Jede Klasse hat die gleiche Anzahl von Beispielen, was zu einer
+ausgewogenen Verteilung führt.</p>
+<h5 id=""unausgewogener-datensatz-1"">Unausgewogener Datensatz</h5>
+<ul>
+<li>Klasse A: 600 Beispiele</li>
+<li>Klasse B: 300 Beispiele</li>
+<li>Klasse C: 100 Beispiele</li>
+</ul>
+<p>In diesem Fall ist Klasse A stark überrepräsentiert und Klasse C
+stark unterrepräsentiert, was zu einer Verzerrung des Modells führen
+kann.</p>
+<h3 id=""maßnahmen"">Maßnahmen</h3>
+<table class=""Table Grid"">
+<thead>
+<tr class=""header"">
+<th>Maßnahme</th>
+<th>Kurzbeschr.</th>
+</tr>
+</thead>
+<tbody>
+<tr class=""odd"">
+<td>MA-08_DistributionAnalysis</td>
+<td>Analyse der Trainingsdaten für bessere Modellleistung und hilft
+Muster, Trends und mögliche Anomalien zu finden.</td>
+</tr>
+<tr class=""even"">
+<td>MA-09_CompareGroundtruth</td>
+<td>""Ground Truth""-Test überprüft Modellqualität mit eindeutigen
+Referenzdaten.</td>
+</tr>
+<tr class=""odd"">
+<td>MA-10_ManualWeights</td>
+<td>Manuelle Gewichtung reduziert Bias und verbessert
+Generalisierung.</td>
+</tr>
+<tr class=""even"">
+<td>MA-12 Abdeckung relevanter Merkmale</td>
+<td>Abdeckung aller wichtigen Merkmale im Datensatz zur
+Modellierung.</td>
+</tr>
+<tr class=""odd"">
+<td>MA-14 EDA-Explorative Daten Analyse</td>
+<td>Die Explorative Datenanalyse (EDA) dient dazu, Hauptmerkmale, Muster
+und Anomalien in Datensätzen zu entdecken, um ein tiefes Verständnis der
+Daten für fundierte weitere Analyseschritte zu entwickeln.</td>
+</tr>
+<tr class=""even"">
+<td>MA-27 StatisticalBasics</td>
+<td>Sammelobjekt für statistische Grundlagen</td>
+</tr>
+</tbody>
+</table>
+<h3 id=""referenzen"">Referenzen</h3>
+<table class=""Table Grid"">
+<thead>
+<tr class=""header"">
+<th>RefID</th>
+<th>Verweis</th>
+<th>Kurzbeschr.</th>
+</tr>
+</thead>
+<tbody>
+<tr class=""odd"">
+<td>17</td>
+<td>ISO/IEC 5259-1:2024 - Artificial intelligence — Data quality for
+analytics and machine learning (ML) — Part 1: Overview, terminology, and
+examples</td>
+<td>Dieser Standard bietet eine Übersicht und definiert die Terminologie
+sowie Beispiele zur Datenqualität im Kontext von Analytik und
+maschinellem Lernen. Er adressiert die Bedeutung der Ausgewogenheit von
+Trainingsdaten als Teil der Datenqualitätsanforderungen.</td>
+</tr>
+<tr class=""even"">
+<td>19</td>
+<td>ISO/IEC 5259-3:2024 - Artificial intelligence — Data quality for
+analytics and machine learning (ML) — Part 3: Data quality management
+requirements and guidelines</td>
+<td>Dieses Dokument definiert allgemeine Anforderungen und Leitlinien
+für die Verbesserung, Implementierung und Aufrechterhaltung der
+Datenqualität in Analytik und maschinellem Lernen, anwendbar auf alle
+Organisationen unabhängig von Art, Größe oder Beschaffenheit, ohne
+detaillierte Prozesse, Methoden oder Metriken vorzugeben.</td>
+</tr>
+<tr class=""odd"">
+<td>20</td>
+<td>ISO/IEC 5259-4:2024 - Artificial intelligence — Data quality for
+analytics and machine learning (ML) — Part 4: Data quality process
+framework</td>
+<td>Standardisiertes Verfahren und Rahmenwerk zur Sicherstellung der
+Datenqualität für Analytik und maschinelles Lernen einschließlich
+spezifischer Prozesse und Leitlinien gemäß den ISO/IEC
+5259-Standards.</td>
+</tr>
+<tr class=""even"">
+<td>28</td>
+<td>ISO/IEC 22989:2022 - Information technology — Artificial
+intelligence — Artificial intelligence concepts and terminology</td>
+<td>Dieser Standard definiert die grundlegenden Konzepte und die
+Terminologie im Bereich der künstlichen Intelligenz, einschließlich der
+Aspekte der Datenqualität und Ausgewogenheit von Trainingsdaten.</td>
+</tr>
+<tr class=""odd"">
+<td>230</td>
+<td>ISO/IEC TS 12791 - Information technology — Artificial intelligence
+— Treatment of unwanted bias in classification and regression machine
+learning tasks</td>
+<td>Information Technology – Artificial Intelligence – Behandlung
+unerwünschter Verzerrungen bei Klassifizierungs- und Regressionsaufgaben
+des maschinellen Lernens</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
+"
+5;QB-05_Size;QB-05 Size;QB-05 Umfang;Größere Datensätze verbessern Modellgenauigkeit, Robustheit und reduzieren Overfitting.;;Qualitätsbaustein;;1;;QB-05;"<!DOCTYPE html>
+
+<html lang="""" xml:lang="""" xmlns=""http://www.w3.org/1999/xhtml"">
+<head>
+<meta charset=""utf-8""/>
+<meta content=""pandoc"" name=""generator""/>
+<meta content=""width=device-width, initial-scale=1.0, user-scalable=yes"" name=""viewport""/>
+<title>-</title>
+<style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type=""checkbox""] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<h2 id=""qb-05-umfang"">QB-05 Umfang</h2>
+<h3 id=""beschreibung"">Beschreibung</h3>
+<p>Der Qualitätsbaustein ""Umfang"" beschreibt den messbaren Umfang eines
+Trainingsdatensatzes, indem er vor allem die Anzahl der enthaltenen
+Datenpunkte in den Blick nimmt. Eine große Datenmenge ermöglicht es,
+statistische Zusammenhänge genauer zu identifizieren, seltene Muster
+abzubilden und die Stabilität des Modells zu erhöhen, indem
+Zufallseffekte reduziert werden. Der reine quantitative Aspekt sorgt
+dafür, dass genügend Beispiele vorhanden sind, um eine fundierte und
+belastbare Analyse der zugrundeliegenden Datenverteilungen zu
+ermöglichen. Durch große Datensätze sind auch die Trainingsläufe weniger
+anfällig für Overfitting. Größere Datensätze können auch die
+Generalisierung und die Robustheit von Trainingsverfahren
+verbessern.</p>
+<p>Im Gegensatz dazu konzentrieren sich ähnliche Kriterien wie
+<strong>Datenvielfalt</strong>, <strong>Repräsentativität</strong> oder
+Datenintegrität auf die qualitativen Dimensionen der Daten. Während
+beispielsweise die Datenvielfalt die Bandbreite und Heterogenität der
+Merkmale erfasst und Repräsentativität überprüft, inwieweit die Daten
+die gesamte Problemwelt abbilden, fokussiert sich die Größe
+ausschließlich auf den numerischen Umfang. Somit bildet sie eine
+grundlegende Basis, die jedoch ergänzend zu den qualitativen Aspekten
+betrachtet werden muss, um ein vollständiges Bild der Datenqualität zu
+erhalten.</p>
+<h3 id=""beispiele"">Beispiele</h3>
+<h4 id=""bilderkennung"">Bilderkennung</h4>
+<h5 id=""mnist-datensatz"">MNIST-Datensatz</h5>
+<ul>
+<li>Größe: 70.000 Bilder (60.000 Trainingsbilder, 10.000
+Testbilder)</li>
+<li>Beschreibung: Enthält handgeschriebene Ziffern von 0 bis 9, die in
+28x28 Pixelbildern dargestellt sind.</li>
+</ul>
+<h5 id=""imagenet-datensatz"">ImageNet-Datensatz</h5>
+<ul>
+<li>Größe: &gt; 14 Millionen Bilder</li>
+<li>Beschreibung: Enthält Bilder aus 1000 Klassen, die für die
+Objekterkennung und Bildklassifizierung verwendet werden.</li>
+</ul>
+<h4 id=""textklassifikation"">Textklassifikation</h4>
+<h5 id=""imdb-datensatz"">IMDB-Datensatz</h5>
+<ul>
+<li>Größe: 50.000 Filmrezensionen (25.000 für Training, 25.000 für
+Testen)</li>
+<li>Beschreibung: Wird für die Sentiment-Analyse (positive oder negative
+Bewertung) verwendet.</li>
+</ul>
+<h5 id=""20-newsgroups-datensatz"">20 Newsgroups-Datensatz</h5>
+<ul>
+<li>Größe: Rund 20.000 Dokumente, verteilt auf 20 verschiedene
+Newsgroups</li>
+<li>Beschreibung: Wird für die Textklassifikation und Themenmodellierung
+verwendet.</li>
+</ul>
+<h3 id=""maßnahmen"">Maßnahmen</h3>
+<table class=""Table Grid"">
+<thead>
+<tr class=""header"">
+<th>Maßnahme</th>
+<th>Kurzbeschr.</th>
+</tr>
+</thead>
+<tbody>
+<tr class=""odd"">
+<td>MA-11 Größe des Trainingsdatensatzes</td>
+<td>Optimale Größe für den Trainingsdatensatz erfordert iterative
+Anpassung nach vorherigen Tests</td>
+</tr>
+<tr class=""even"">
+<td>MA-12 Abdeckung relevanter Merkmale</td>
+<td>Abdeckung aller wichtigen Merkmale im Datensatz zur
+Modellierung.</td>
+</tr>
+<tr class=""odd"">
+<td>MA-15 Empirische Evidenz</td>
+<td>Vergleich ähnlicher Fälle ermöglicht Rückschlüsse auf
+Maßnahmeneffektivität.</td>
+</tr>
+<tr class=""even"">
+<td>MA-27 StatisticalBasics</td>
+<td>Sammelobjekt für statistische Grundlagen</td>
+</tr>
+</tbody>
+</table>
+<h3 id=""referenzen"">Referenzen</h3>
+<table class=""Table Grid"">
+<thead>
+<tr class=""header"">
+<th>RefID</th>
+<th>Verweis</th>
+<th>Kurzbeschr.</th>
+</tr>
+</thead>
+<tbody>
+<tr class=""odd"">
+<td>18</td>
+<td>ISO/IEC 5259-2 - Artificial intelligence — Data quality for
+analytics and machine learning (ML) — Part 2: Data quality measures</td>
+<td>Dieser Standard spezifiziert Maßnahmen zur Bewertung und
+Sicherstellung der Datenqualität, einschließlich der Ausgewogenheit der
+Daten.</td>
+</tr>
+<tr class=""even"">
+<td>19</td>
+<td>ISO/IEC 5259-3:2024 - Artificial intelligence — Data quality for
+analytics and machine learning (ML) — Part 3: Data quality management
+requirements and guidelines</td>
+<td>Dieses Dokument definiert allgemeine Anforderungen und Leitlinien
+für die Verbesserung, Implementierung und Aufrechterhaltung der
+Datenqualität in Analytik und maschinellem Lernen, anwendbar auf alle
+Organisationen unabhängig von Art, Größe oder Beschaffenheit, ohne
+detaillierte Prozesse, Methoden oder Metriken vorzugeben.</td>
+</tr>
+<tr class=""odd"">
+<td>25</td>
+<td>ISO/IEC 20546:2019 - Information technology — Big data — Overview
+and vocabulary</td>
+<td>Information technology — Big data — Overview and vocabulary bietet
+eine umfassende Übersicht über Big Data, einschließlich der
+Terminologie, Konzepte und allgemeinen Prinzipien, die mit Big
+Data-Technologien und -Anwendungen verbunden sind. Es dient als
+Grundlage für das Verständnis und die Kommunikation im Bereich Big
+Data.</td>
+</tr>
+<tr class=""even"">
+<td>28</td>
+<td>ISO/IEC 22989:2022 - Information technology — Artificial
+intelligence — Artificial intelligence concepts and terminology</td>
+<td>Dieser Standard definiert die grundlegenden Konzepte und die
+Terminologie im Bereich der künstlichen Intelligenz, einschließlich der
+Aspekte der Datenqualität und Ausgewogenheit von Trainingsdaten.</td>
+</tr>
+<tr class=""odd"">
+<td>40</td>
+<td>ISO/IEC TR 24027:2021 - Information technology — Artificial
+intelligence (AI) — Bias in AI systems and AI aided decision making</td>
+<td>Der Bericht untersucht Bias in KI-Systemen und betont, dass
+hochwertige Trainingsdaten essenziell sind, um Verzerrungen zu
+reduzieren und faire, gerechte Entscheidungen zu ermöglichen.</td>
+</tr>
+<tr class=""even"">
+<td>163</td>
+<td>Towards better generalization: Weight Decay induces low-rank bias
+for neural networks</td>
+<td>Das Paper zeigt, dass Weight Decay in neuronalen Netzen eine
+Low-Rank-Voreingenommenheit in den Gewichtsmatrizen induziert, was die
+Generalisierung verbessert, indem es die Generalisierungsfehler
+verringert.</td>
+</tr>
+<tr class=""odd"">
+<td>178</td>
+<td>Training Compute-Optimal Large Language Models</td>
+<td>Die Studie belegt, dass Modelle optimal trainiert werden, wenn
+Parameterzahl und Tokenmenge gleich skaliert werden, und zeigt, dass
+Chinchilla (70 Mrd. Parameter) – dank deutlich mehr Trainingsdaten –
+Gopher (280 Mrd.) und GPT-3 in Effizienz und MMLU-Genauigkeit (67,5 %)
+übertrifft.</td>
+</tr>
+<tr class=""even"">
+<td>189</td>
+<td>Kriterienkatalog für KI-Cloud-Dienste – AIC4</td>
+<td>Der AIC4 (Artificial Intelligence Cloud Services Compliance Criteria
+Catalogue) ist ein Kriterienkatalog entwickelt vom Bundesamt für
+Sicherheit in der Informationstechnik (BSI) mit dem Ziel, die Sicherheit
+von KI-basierten Clouddiensten zu verbessern und zu
+standardisieren.</td>
+</tr>
+<tr class=""odd"">
+<td>190</td>
+<td>Kriterienkatalog C5</td>
+<td>Der C5 (Cloud Computing Compliance Criteria Catalogue) des
+Bundesamts für Sicherheit in der Informationstechnik (BSI) stellt einen
+detaillierten Kriterienkatalog dar, der grundlegende Anforderungen an
+die Informationssicherheit von Cloud-Diensten festlegt.</td>
+</tr>
+<tr class=""even"">
+<td>206</td>
+<td>Open Data Act</td>
+<td>RICHTLINIE (EU) 2019/ 1024 DES EUROPÄISCHEN PARLAMENTS UND DES RATES
+- vom 20. Juni 2019 - über offene Daten und die Weiterverwendung von
+Informationen des öffentlichen Sektors</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
+"
+6;QB-06 Bias-Detektion;QB-06 Bias-Detektion;QB-06 Verzerrung;Unausgewogene Verteilung führt zu systematischen Verzerrungen in Modellvorhersagen.;;Qualitätsbaustein;;1;;QB-06;"<!DOCTYPE html>
+
+<html lang="""" xml:lang="""" xmlns=""http://www.w3.org/1999/xhtml"">
+<head>
+<meta charset=""utf-8""/>
+<meta content=""pandoc"" name=""generator""/>
+<meta content=""width=device-width, initial-scale=1.0, user-scalable=yes"" name=""viewport""/>
+<title>-</title>
+<style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type=""checkbox""] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<h2 id=""qb-06-bias-detektion"">QB-06 Bias-Detektion</h2>
+<h3 id=""beschreibung"">Beschreibung</h3>
+<p>Der Baustein beschreibt wie man Verzerrungen (Bias) – also
+systematische, unerwünschte Abweichungen im Daten- oder Modellverhalten
+– frühzeitig zu erkennen, dokumentiert und quantitativ einordnet. Ziel
+ist es, Transparenz über mögliche Benachteiligungen oder
+Fehlinterpretationen zu schaffen, bevor ein Modell produktiv eingesetzt
+wird.</p>
+<p>Synonyme für Bias-Detektion sind u. a.: Verzerrungserkennung, Bias
+Discovery, Vorurteilsidentifikation oder Fairness-Screening. Allen
+Begriffen gemeinsam ist das Ziel, latente Ungleichbehandlung
+aufzudecken; Unterschiede bestehen lediglich in Fach- oder
+Branchenkonventionen.</p>
+<p>Bias-Detektion (QB-06) unterscheidet sich von Bias-Mitigation
+(QB-15). Dieser Baustein behandelt die aktive Reduktion oder das
+Eliminieren erkannter Verzerrungen. Ebenfalls abzugrenzen sind
+Fairness-Monitoring (laufende Überwachung nach Deployment) sowie
+Concept-Drift-Detection, die Veränderungen in den Datenverteilungen über
+die Zeit adressiert, jedoch nicht spezifisch auf Diskriminierungsaspekte
+zielt.</p>
+<p><strong>Qualitative Datenanalyse</strong></p>
+<p>Im Detail können zur Detektion von Bias verschiedene
+Qualitätskriterien, Bausteine und Maßnahmen umgesetzt werden.</p>
+<ul>
+<li>Intensive Auseinandersetzung mit den Daten und ihren
+Eigenschaften</li>
+<li>Wichtige Informationsquellen:
+<ul>
+<li>Metadaten (MA-17)</li>
+<li>Herkunft und Erhebungsmethodik (MA-18)</li>
+<li>Durchgeführte Transformationen (MA-16, MA-23, MA-24)</li>
+</ul></li>
+<li>Keine einheitliche Methode, aber mindestens folgende Fragen klären:
+<ul>
+<li>Repräsentativität der Daten (MA-08, MA-09, MA-10, MA-12, MA-27,
+MA-28)</li>
+<li>Erhebungszeitpunkt und Aktualität der Daten (MA-18)</li>
+<li>Erhebungsmethode und ihre Vor-/Nachteile (MA-18)</li>
+<li>Aufwand und Vollständigkeit der Datenerhebung (MA-11, MA-12, MA-15,
+MA-27)</li>
+<li>Wissen der Beteiligten über die Datenerhebung (Verhaltensänderung)
+(MA-18)</li>
+<li>Zugangsbeschränkungen für Teilnehmende (Coverage) (MA-18)</li>
+<li>Zeitliche und räumliche Auflösung der Daten (MA-12, MA-13,
+MA-27)</li>
+<li>Gemessene vs. abgeleitete Merkmale (MA-18, MA-23, MA-24)</li>
+<li>Vollständigkeit aller relevanten Merkmale (MA-12, MA-13)</li>
+<li>Mögliche Falschinformationen oder manipulierte Daten (MA-01, MA-02,
+MA-03, MA-04, MA-18, MA-27)</li>
+</ul></li>
+<li>Empfehlung: Erstellung einer <strong>Datenkarte</strong> (Datasheet)
+bei selbst erhobenen Datensätzen (MA-18)</li>
+</ul>
+<p><strong>Quantitative Datenanalyse</strong>:</p>
+<ul>
+<li>Einsatz statistischer Verfahren zur Identifikation von Bias-Risiken
+(Verschiedene Verfahren aus MA-14, )</li>
+<li>Empfohlene Analyseschritte:
+<ul>
+<li><strong>Schiefe (Skewness)</strong>
+<ul>
+<li>Untersuchung via Histogramme/Dichtekurven oder numerische Kennzahlen
+(MA-14)</li>
+<li>Hohe Schiefe als potenzielles Bias-Indiz</li>
+</ul></li>
+<li><strong>Korrelationen</strong> (QM-11)
+<ul>
+<li>Analyse von Zusammenhängen zwischen Merkmalen</li>
+<li>Besonderes Augenmerk auf Korrelationen mit geschützten Attributen
+(z. B. Ethnizität, Geschlecht)</li>
+<li>Nutzung von Pearson, Spearman oder Kendall</li>
+</ul></li>
+<li><strong>Autokorrelation (bei Zeitreihen)</strong>
+<ul>
+<li>Durbin-Watson-Test oder Korrelogramme</li>
+<li>Getrennte Analyse für Subpopulationen</li>
+</ul></li>
+<li><strong>Varianzuntersuchung</strong>
+<ul>
+<li>Entfernen von Merkmalen mit sehr geringer oder keiner Varianz</li>
+<li>Analyse gesamt und subpopulationenspezifisch (Bessel-Korrektur)</li>
+</ul></li>
+<li><strong>Subpopulationen-Vergleich</strong>
+<ul>
+<li>Statistische Verfahren wie ANOVA oder Tukey-Test</li>
+<li>Sicherstellen der methodischen Voraussetzungen und korrekten
+Variantenwahl</li>
+</ul></li>
+</ul></li>
+</ul>
+<h3 id=""maßnahmen"">Maßnahmen</h3>
+<table class=""Table Grid"">
+<thead>
+<tr class=""header"">
+<th>Maßnahme</th>
+<th>Kurzbeschr.</th>
+</tr>
+</thead>
+<tbody>
+<tr class=""odd"">
+<td>MA-01 Datentyp Validierung</td>
+<td>Eine sorgfältige Validierung der Datentypen stellt sicher, dass
+Trainings- und Eingabedaten den erwarteten Typen des Modells
+entsprechen, wodurch fehlerhafte Datenpunkte erkannt und gegebenenfalls
+korrigiert oder entfernt werden können.</td>
+</tr>
+<tr class=""even"">
+<td>MA-02 Format Prüfung</td>
+<td>Inhalte mittels Formatierungsprüfung auf Korrektheit prüfen</td>
+</tr>
+<tr class=""odd"">
+<td>MA-03_Range Check</td>
+<td>Bereichsprüfung erkennt Ausreißer und falsche Daten in
+Merkmalen</td>
+</tr>
+<tr class=""even"">
+<td>MA-04_Over-Undersampling</td>
+<td>Oversampling erhöht die Anzahl der Minderheitenklasse durch kopierte
+oder synthetische Beispiele, oft mit SMOTE, während beim Undersampling
+Datenpunkte der Majoritätsklasse entfernt werden, um ein
+Klassen-Gleichgewicht zu erreichen.</td>
+</tr>
+<tr class=""odd"">
+<td>MA-06_Expert Evaluation</td>
+<td>Ein Experte prüft die Daten manuell.</td>
+</tr>
+<tr class=""even"">
+<td>MA-07 Crowdsourcing</td>
+<td>Einbeziehung größerer Menschengruppen zur Prüfung der Daten.</td>
+</tr>
+<tr class=""odd"">
+<td>MA-08_DistributionAnalysis</td>
+<td>Analyse der Trainingsdaten für bessere Modellleistung und hilft
+Muster, Trends und mögliche Anomalien zu finden.</td>
+</tr>
+<tr class=""even"">
+<td>MA-09_CompareGroundtruth</td>
+<td>""Ground Truth""-Test überprüft Modellqualität mit eindeutigen
+Referenzdaten.</td>
+</tr>
+<tr class=""odd"">
+<td>MA-10_ManualWeights</td>
+<td>Manuelle Gewichtung reduziert Bias und verbessert
+Generalisierung.</td>
+</tr>
+<tr class=""even"">
+<td>MA-11 Größe des Trainingsdatensatzes</td>
+<td>Optimale Größe für den Trainingsdatensatz erfordert iterative
+Anpassung nach vorherigen Tests</td>
+</tr>
+<tr class=""odd"">
+<td>MA-12 Abdeckung relevanter Merkmale</td>
+<td>Abdeckung aller wichtigen Merkmale im Datensatz zur
+Modellierung.</td>
+</tr>
+<tr class=""even"">
+<td>MA-13 Vollständige Information in Datensätzen</td>
+<td>Prüfung ob Informationen nach einem bestimmtem Verlustschema fehlen
+(MCAR, MAR, MNAR)</td>
+</tr>
+<tr class=""odd"">
+<td>MA-14 EDA-Explorative Daten Analyse</td>
+<td>Die Explorative Datenanalyse (EDA) dient dazu, Hauptmerkmale, Muster
+und Anomalien in Datensätzen zu entdecken, um ein tiefes Verständnis der
+Daten für fundierte weitere Analyseschritte zu entwickeln.</td>
+</tr>
+<tr class=""even"">
+<td>MA-15 Empirische Evidenz</td>
+<td>Vergleich ähnlicher Fälle ermöglicht Rückschlüsse auf
+Maßnahmeneffektivität.</td>
+</tr>
+<tr class=""odd"">
+<td>MA-16 Daten Imputation</td>
+<td>Imputation ist die Vervollständigung fehlender Daten in einem
+Datensatz, um die Integrität für den Lernprozess von ML-Modellen zu
+gewährleisten, wobei der Grund für das Fehlen der Daten entscheidend für
+die Wahl des Imputationsverfahrens ist.</td>
+</tr>
+<tr class=""even"">
+<td>MA-17_MetadataManagement</td>
+<td>Metadaten sind beschreibende Daten über andere Daten, die deren
+Verwaltung, Analyse und Nutzung erleichtern und im Trainingsprozess zur
+Verbesserung von Trainingsdatensätzen eingesetzt werden können.</td>
+</tr>
+<tr class=""odd"">
+<td>MA-18_ProvenienzTracking</td>
+<td>Provenienztracking sichert Datenqualität, Herkunftsnachweis über
+verschiedene Felder.</td>
+</tr>
+<tr class=""even"">
+<td>MA-20 Prozess Dokumentation</td>
+<td>Detaillierte Prozessdokumentationen sollten alle Aktivitäten,
+Verantwortlichkeiten, Ressourcen, erwarteten Ergebnisse und beteiligten
+Personen umfassen, um den Schöpfungsprozess transparent zu machen und
+den Anforderungen verschiedener Normen zu entsprechen.</td>
+</tr>
+<tr class=""odd"">
+<td>MA-23 Merkmalsskalierung</td>
+<td>Feature Scaling passt die Merkmale eines Datensatzes an einen
+einheitlichen Bereich an, um Unterschiede in den Skalierungen zu
+reduzieren und sicherzustellen, dass maschinelle Lernalgorithmen
+effizienter arbeiten und genauere Vorhersagen liefern können.</td>
+</tr>
+<tr class=""even"">
+<td>MA-24 Merkmalserstellung</td>
+<td>Methoden zur Generierung neuer Merkmale aus Rohdaten, um die
+Leistung von maschinellen Lernmodellen zu verbessern.</td>
+</tr>
+<tr class=""odd"">
+<td>MA-27 StatisticalBasics</td>
+<td>Sammelobjekt für statistische Grundlagen</td>
+</tr>
+<tr class=""even"">
+<td>MA-28_Diversity-Indices</td>
+<td>Diversity Indices sind Kennzahlen, die die Vielfalt innerhalb eines
+Systems messbar machen.</td>
+</tr>
+</tbody>
+</table>
+<h3 id=""referenzen"">Referenzen</h3>
+<table class=""Table Grid"">
+<thead>
+<tr class=""header"">
+<th>RefID</th>
+<th>Verweis</th>
+<th>Kurzbeschr.</th>
+</tr>
+</thead>
+<tbody>
+<tr class=""odd"">
+<td>17</td>
+<td>ISO/IEC 5259-1:2024 - Artificial intelligence — Data quality for
+analytics and machine learning (ML) — Part 1: Overview, terminology, and
+examples</td>
+<td>Dieser Standard bietet eine Übersicht und definiert die Terminologie
+sowie Beispiele zur Datenqualität im Kontext von Analytik und
+maschinellem Lernen. Er adressiert die Bedeutung der Ausgewogenheit von
+Trainingsdaten als Teil der Datenqualitätsanforderungen.</td>
+</tr>
+<tr class=""even"">
+<td>18</td>
+<td>ISO/IEC 5259-2 - Artificial intelligence — Data quality for
+analytics and machine learning (ML) — Part 2: Data quality measures</td>
+<td>Dieser Standard spezifiziert Maßnahmen zur Bewertung und
+Sicherstellung der Datenqualität, einschließlich der Ausgewogenheit der
+Daten.</td>
+</tr>
+<tr class=""odd"">
+<td>19</td>
+<td>ISO/IEC 5259-3:2024 - Artificial intelligence — Data quality for
+analytics and machine learning (ML) — Part 3: Data quality management
+requirements and guidelines</td>
+<td>Dieses Dokument definiert allgemeine Anforderungen und Leitlinien
+für die Verbesserung, Implementierung und Aufrechterhaltung der
+Datenqualität in Analytik und maschinellem Lernen, anwendbar auf alle
+Organisationen unabhängig von Art, Größe oder Beschaffenheit, ohne
+detaillierte Prozesse, Methoden oder Metriken vorzugeben.</td>
+</tr>
+<tr class=""even"">
+<td>22</td>
+<td>ISO/IEC 5339 Artificial intelligence — Guidance for AI
+applications</td>
+<td>Dieses Dokument definiert Prozesse zur Verwaltung des Lebenszyklus
+von KI-Systemen basierend auf maschinellem Lernen und heuristischen
+Methoden, unter Einbeziehung von ISO/IEC/IEEE 15288, ISO/IEC/IEEE 12207
+sowie KI-spezifischen Ergänzungen aus ISO/IEC 22989 und ISO/IEC 23053.
+Es bietet Richtlinien zur Definition, Kontrolle, Verwaltung, Ausführung
+und Verbesserung von KI-Systemen, die auch für traditionelle Software-
+und Systemelemente anwendbar sind.</td>
+</tr>
+<tr class=""odd"">
+<td>28</td>
+<td>ISO/IEC 22989:2022 - Information technology — Artificial
+intelligence — Artificial intelligence concepts and terminology</td>
+<td>Dieser Standard definiert die grundlegenden Konzepte und die
+Terminologie im Bereich der künstlichen Intelligenz, einschließlich der
+Aspekte der Datenqualität und Ausgewogenheit von Trainingsdaten.</td>
+</tr>
+<tr class=""even"">
+<td>40</td>
+<td>ISO/IEC TR 24027:2021 - Information technology — Artificial
+intelligence (AI) — Bias in AI systems and AI aided decision making</td>
+<td>Der Bericht untersucht Bias in KI-Systemen und betont, dass
+hochwertige Trainingsdaten essenziell sind, um Verzerrungen zu
+reduzieren und faire, gerechte Entscheidungen zu ermöglichen.</td>
+</tr>
+<tr class=""odd"">
+<td>56</td>
+<td>DIN SPEC 92005:2024-03, Künstliche Intelligenz_- Quantifizierung von
+Unsicherheiten im Maschinellen Lernen; Text Englisch</td>
+<td>Diese DIN SPEC definiert allgemeine Richtlinien und technische
+Anforderungen für die Quantifizierung von Unsicherheiten im maschinellen
+Lernen (ML) und bietet einen Überblick über verfügbare Ansätze und deren
+Anwendung, jedoch ohne spezifische Anforderungen für sicherheits- und
+gesundheitsschutzrelevante Funktionen.</td>
+</tr>
+<tr class=""even"">
+<td>160</td>
+<td>Data quality dimensions for fair AI</td>
+<td>KI-Systeme spiegeln inhärent Verzerrungen wider – oft durch
+fehlerhaft gelabelte Daten verursacht –, was zu diskriminierenden
+Klassifikationen und zur Verstärkung struktureller Benachteiligung
+führt. Dieser Artikel untersucht Bias anhand von
+Informationsqualitätsdimensionen und schlägt vor, die Fairness bei der
+Geschlechtsklassifikation, insbesondere für non-binäre und trans
+Personen, durch bessere Vollständigkeit, Konsistenz, Aktualität und
+Zuverlässigkeit zu verbessern.</td>
+</tr>
+<tr class=""odd"">
+<td>170</td>
+<td>Beyond the Imitation Game: Quantifying and extrapolating the
+capabilities of language models</td>
+<td>Mit zunehmender Skalierung zeigen Sprachmodelle sowohl quantitative
+Verbesserungen als auch neue qualitative Fähigkeiten, die jedoch noch
+schlecht verstanden sind; um diese besser zu erfassen und zukünftige
+Auswirkungen zu antizipieren, wurde der BIG-bench Benchmark entwickelt,
+der 204 anspruchsvolle Aufgaben umfasst und zeigt, dass die Leistung der
+Modelle zwar mit der Größe zunimmt, aber im Vergleich zu menschlichen
+Experten weiterhin limitiert bleibt.</td>
+</tr>
+<tr class=""even"">
+<td>175</td>
+<td>Rethinking Backdoor Attacks</td>
+<td>Bei einem Backdoor-Angriff fügt ein Angreifer böswillig konstruierte
+Backdoor-Beispiele in einen Trainingssatz ein, um das resultierende
+Modell anfällig für Manipulationen zu machen. Bei der Abwehr solcher
+Angriffe geht es in der Regel darum, diese eingefügten Beispiele als
+Ausreißer im Trainingssatz zu betrachten und Techniken aus robusten
+Statistiken zu verwenden, um sie zu erkennen und zu entfernen.</td>
+</tr>
+<tr class=""odd"">
+<td>202</td>
+<td>Statistical Thinking and Data Analysis | Sloan School of
+Management</td>
+<td>Einführung in grundlegende statistische Methoden von
+Wahrscheinlichkeit und Stichproben über Hypothesentests bis Regression,
+ANOVA sowie kategoriale und nichtparametrische Verfahren.</td>
+</tr>
+<tr class=""even"">
+<td>230</td>
+<td>ISO/IEC TS 12791 - Information technology — Artificial intelligence
+— Treatment of unwanted bias in classification and regression machine
+learning tasks</td>
+<td>Information Technology – Artificial Intelligence – Behandlung
+unerwünschter Verzerrungen bei Klassifizierungs- und Regressionsaufgaben
+des maschinellen Lernens</td>
+</tr>
+<tr class=""odd"">
+<td>235</td>
+<td>Data Governance Act - Regulation (EU) 2022/868 of the European
+Parliament and of the Council of 30 May 2022 on European data governance
+and amending Regulation (EU) 2018/1724 (Data Governance Act) (Text with
+EEA relevance)</td>
+<td>Die Verordnung (EU) 2022/868 über europäische Daten-Governance
+schafft einen harmonisierten Rahmen für die Nutzung und Weiterverwendung
+von Daten in der EU, um Innovation und einen digitalen Binnenmarkt zu
+fördern. Sie regelt gemeinsame Datenräume, sichere
+Datenweiterverwendung, freiwilligen Datenaltruismus und neutrale
+Datenvermittlungsdienste, wobei Datenschutz und Grundrechte
+gewährleistet bleiben.</td>
+</tr>
+<tr class=""even"">
+<td>237</td>
+<td>Digital Services Act - Verordnung (EU) 2022/2065 des Europäischen
+Parlaments und des Rates vom 19. Oktober 2022 über einen Binnenmarkt für
+digitale Dienste und zur Änderung der Richtlinie 2000/31/EG (Gesetz über
+digitale Dienste) (Text von Bedeutung für den EWR)</td>
+<td>Die Verordnung (EU) 2022/2065 über digitale Dienste harmonisiert
+Vorschriften für Vermittlungsdienste in der EU, stärkt den Schutz von
+Grundrechten, bekämpft rechtswidrige Inhalte und schafft ein sicheres,
+transparentes Online-Umfeld.</td>
+</tr>
+<tr class=""odd"">
+<td>296</td>
+<td>Bias in der künstlichen Intelligenz</td>
+<td>Das Dokument Bias in der künstlichen Intelligenz befasst sich mit
+den Grundlagen und zeigt Detektion und Mitigationsmechanismen auf um
+Bias in den eigenen Datensätzen auf die Spur zu kommen.</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
+"
+7;QB-07 Gesamtheit;QB-07 Gesamtheit;QB-07 Gesamtheit;Gesamtheit besteht, wenn alle erwarteten Werte vorhanden sind;;Qualitätsbaustein;;1;;QB-07;"<!DOCTYPE html>
+
+<html lang="""" xml:lang="""" xmlns=""http://www.w3.org/1999/xhtml"">
+<head>
+<meta charset=""utf-8""/>
+<meta content=""pandoc"" name=""generator""/>
+<meta content=""width=device-width, initial-scale=1.0, user-scalable=yes"" name=""viewport""/>
+<title>-</title>
+<style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type=""checkbox""] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<h2 id=""qb-07-gesamtheit"">QB-07 Gesamtheit</h2>
+<h3 id=""beschreibung"">Beschreibung</h3>
+<p>Gesamtheit als Qualitätsbaustein stellt die Eigenschaft von Daten
+dar, Werte für alle erwarteten Attribute und Entitätsinstanzen
+aufzuweisen.</p>
+<p>Die Gesamtheit ist eine relative Eigenschaft, deren Bedeutung
+natürlich auch nach Anwendungsszenario variiert und immer im Kontext der
+spezifischen Nutzung betrachtet werden muss. Ebenso kann sie auf
+Datensatz-, Spalten- oder Datenpunktebene gemessen/betrachtet
+werden.</p>
+<p>Faktoren zur Messung der Gesamtheit könnten etwa</p>
+<ul>
+<li>die Überprüfung unbeschrifteter Samples bei der bildbasierten
+Klassifikation oder</li>
+<li>die Gesamtheit von beschrifteten Begrenzungsrahmen bei der
+Objekterkennung sein.</li>
+<li>Bei der Bilderkennung müssen besonders die Existenz von Zielobjekten
+in den Samples, die korrekte Kategorisierung aller Zielobjekte und die
+adäquate Beschriftung aller erkannten Zielobjekte mit Begrenzungsrahmen
+oder anderen Methoden beachtet werden. Diese Aspekte sind essentiell, um
+die Effizienz und Zuverlässigkeit von ML-Modellen zu gewährleisten.</li>
+<li>Auch die Gesamtheit aller Merkmale zur Beschreibung des Problems
+muss hierbei betrachtet werden.</li>
+</ul>
+<h3 id=""beispiele"">Beispiele</h3>
+<h4 id=""beispiel-1-bilderkennung-von-katzen-und-hunden"">Beispiel 1:
+Bilderkennung von Katzen und Hunden</h4>
+<p><strong>Anwendungsszenario:</strong> Ein ML-Modell soll Katzen und
+Hunde auf Bildern erkennen und kategorisieren.</p>
+<p><strong>Gesamtheit:</strong></p>
+<ul>
+<li><strong>Datensatzebene:</strong> Der Datensatz enthält Bilder von
+Katzen und Hunden.</li>
+<li><strong>Spaltenebene:</strong> Jedes Bild ist mit einem Label (Katze
+oder Hund) versehen.</li>
+<li><strong>Datenpunktebene:</strong> Jedes Bild, das eine Katze oder
+einen Hund enthält, hat einen korrekten Begrenzungsrahmen und ist
+korrekt kategorisiert.</li>
+</ul>
+<p><strong>Messung der Gesamtheit:</strong></p>
+<ul>
+<li>Überprüfung, ob alle Bilder im Datensatz entweder eine Katze oder
+einen Hund zeigen.</li>
+<li>Sicherstellen, dass alle Katzen- und Hundebilder korrekt beschriftet
+sind.</li>
+<li>Prüfen, dass alle erkannten Katzen und Hunde mit einem
+Begrenzungsrahmen versehen sind.</li>
+</ul>
+<h4 id=""beispiel-2-qualitätskontrolle-in-der-fertigung"">Beispiel 2:
+Qualitätskontrolle in der Fertigung</h4>
+<p><strong>Anwendungsszenario:</strong> Ein System soll fehlerhafte
+Produkte auf einem Förderband erkennen.</p>
+<p><strong>Gesamtheit:</strong></p>
+<ul>
+<li><strong>Datensatzebene:</strong> Der Datensatz enthält Bilder von
+Produkten auf dem Förderband.</li>
+<li><strong>Spaltenebene:</strong> Jedes Bild ist mit einem Label
+versehen, ob das Produkt fehlerhaft ist oder nicht.</li>
+<li><strong>Datenpunktebene:</strong> Alle fehlerhaften Produkte sind
+korrekt identifiziert und beschriftet.</li>
+</ul>
+<p><strong>Messung der Gesamtheit:</strong></p>
+<ul>
+<li>Sicherstellen, dass der Datensatz alle möglichen Zustände
+(fehlerhaft und nicht fehlerhaft) der Produkte abdeckt.</li>
+<li>Überprüfung, ob alle fehlerhaften Produkte im Datensatz korrekt
+beschriftet sind.</li>
+<li>Prüfen, dass jedes erkannte fehlerhafte Produkt mit einem
+Begrenzungsrahmen versehen ist.</li>
+</ul>
+<h4 id=""beispiel-3-sentiment-analyse-von-kundenbewertungen"">Beispiel 3:
+Sentiment-Analyse von Kundenbewertungen</h4>
+<p><strong>Anwendungsszenario:</strong> Ein Modell soll die Stimmung
+(positiv, neutral, negativ) in Kundenbewertungen erkennen.</p>
+<p><strong>Gesamtheit:</strong></p>
+<ul>
+<li><strong>Datensatzebene:</strong> Der Datensatz enthält eine Vielzahl
+von Kundenbewertungen.</li>
+<li><strong>Spaltenebene:</strong> Jede Bewertung ist mit einem
+Sentiment-Label (positiv, neutral, negativ) versehen.</li>
+<li><strong>Datenpunktebene:</strong> Alle Kundenbewertungen sind
+korrekt kategorisiert.</li>
+</ul>
+<p><strong>Messung der Gesamtheit:</strong></p>
+<ul>
+<li>Sicherstellen, dass der Datensatz eine breite und repräsentative
+Auswahl an Kundenbewertungen umfasst.</li>
+<li>Überprüfung, ob alle Bewertungen im Datensatz korrekt mit dem
+entsprechenden Sentiment-Label versehen sind.</li>
+<li>Prüfen, dass jede Bewertung vollständig erfasst und keine Daten
+fehlen.</li>
+</ul>
+<h3 id=""maßnahmen"">Maßnahmen</h3>
+<table class=""Table Grid"">
+<thead>
+<tr class=""header"">
+<th>Maßnahme</th>
+<th>Kurzbeschr.</th>
+</tr>
+</thead>
+<tbody>
+<tr class=""odd"">
+<td>MA-12 Abdeckung relevanter Merkmale</td>
+<td>Abdeckung aller wichtigen Merkmale im Datensatz zur
+Modellierung.</td>
+</tr>
+<tr class=""even"">
+<td>MA-13 Vollständige Information in Datensätzen</td>
+<td>Prüfung ob Informationen nach einem bestimmtem Verlustschema fehlen
+(MCAR, MAR, MNAR)</td>
+</tr>
+<tr class=""odd"">
+<td>MA-27 StatisticalBasics</td>
+<td>Sammelobjekt für statistische Grundlagen</td>
+</tr>
+</tbody>
+</table>
+<h3 id=""referenzen"">Referenzen</h3>
+<table class=""Table Grid"">
+<thead>
+<tr class=""header"">
+<th>RefID</th>
+<th>Verweis</th>
+<th>Kurzbeschr.</th>
+</tr>
+</thead>
+<tbody>
+<tr class=""odd"">
+<td>10</td>
+<td>ISO/TS 8000-81:2021 - Data quality — Part 81: Data quality
+assessment: Profiling</td>
+<td>Die ISO/TS 8000-81:2021 legt ein Verfahren für Datenprofiling zur
+Bewertung der Datenqualität fest, das sich auf Strukturanalyse,
+Spaltenanalyse und Beziehungsanalyse konzentriert. Sie ist auf
+tabellarische Daten anwendbar, behandelt jedoch keine Methoden zur
+Datenextraktion oder Regelableitung und kann sowohl eigenständig als
+auch zusammen mit Qualitätsmanagementsystem-Standards verwendet
+werden.</td>
+</tr>
+<tr class=""even"">
+<td>167</td>
+<td>Beyond Accuracy: What Data Quality Means to Data Consumers</td>
+<td>Die Studie entwickelt ein Rahmenwerk für Datenqualität, das die
+Bedürfnisse der Datenkonsumenten erfasst und zeigt, dass Datenqualität
+neben Genauigkeit auch Aspekte wie Kontext, Repräsentation und
+Zugänglichkeit umfasst, wodurch Unternehmen die Datenanforderungen
+besser verstehen und erfüllen können.</td>
+</tr>
+<tr class=""odd"">
+<td>191</td>
+<td>The Effects of Data Quality on Machine Learning Performance</td>
+<td>Moderne KI-Anwendungen erfordern große Mengen hochwertiger Daten.
+Unvollständige oder fehlerhafte Daten führen zu unzuverlässigen Modellen
+und schlechten Entscheidungen. Eine vertrauenswürdige KI ist auf genaue,
+vollständige und konsistente Daten angewiesen.</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
+"
+8;QB-08 Konsistenzsicherung;QB-08 Konsistenzsicherung;QB-08 Konsistenzsicherung;Einheitliche, widerspruchsfreie Datenformate und -werte gewährleisten.;;Qualitätsbaustein;;1;;QB-08;"<!DOCTYPE html>
+
+<html lang="""" xml:lang="""" xmlns=""http://www.w3.org/1999/xhtml"">
+<head>
+<meta charset=""utf-8""/>
+<meta content=""pandoc"" name=""generator""/>
+<meta content=""width=device-width, initial-scale=1.0, user-scalable=yes"" name=""viewport""/>
+<title>-</title>
+<style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type=""checkbox""] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<h2 id=""qb-08-konsistenzsicherung"">QB-08 Konsistenzsicherung</h2>
+<h3 id=""beschreibung"">Beschreibung</h3>
+<p>Die Sicherstellung der Konsistenz der Daten (z.B. auf Basis von
+Attributen, Anzahl an Datenpunkten, im zeitlichen Verlauf, ...) kann
+durch viele Maßnahmen erfolgen. Einheitliche oder vordefinierte Formate
+und Typen sind diesem Umstand dienlich. Standardisierte Formate und
+automatisierte Prüfmechanismen erkennen frühzeitig Abweichungen, sodass
+Änderungen wie Imputation und Transformation nachvollziehbar
+durchgeführt werden können. Dadurch bleibt die Datenintegrität erhalten
+und bildet eine zuverlässige Basis für fundierte Analysen und
+Entscheidungen. Die Konsistenzsicherung gewährleistet, dass Daten
+während ihres gesamten Lebenszyklus einheitlich und korrekt bleiben.</p>
+<p>Synonyme zur Konsistenzsicherung sind bspw. Kohärenzsicherung,
+Stimmigkeitsprüfung.</p>
+<h3 id=""maßnahmen"">Maßnahmen</h3>
+<table class=""Table Grid"">
+<thead>
+<tr class=""header"">
+<th>Maßnahme</th>
+<th>Kurzbeschr.</th>
+</tr>
+</thead>
+<tbody>
+<tr class=""odd"">
+<td>MA-01 Datentyp Validierung</td>
+<td>Eine sorgfältige Validierung der Datentypen stellt sicher, dass
+Trainings- und Eingabedaten den erwarteten Typen des Modells
+entsprechen, wodurch fehlerhafte Datenpunkte erkannt und gegebenenfalls
+korrigiert oder entfernt werden können.</td>
+</tr>
+<tr class=""even"">
+<td>MA-02 Format Prüfung</td>
+<td>Inhalte mittels Formatierungsprüfung auf Korrektheit prüfen</td>
+</tr>
+<tr class=""odd"">
+<td>MA-03_Range Check</td>
+<td>Bereichsprüfung erkennt Ausreißer und falsche Daten in
+Merkmalen</td>
+</tr>
+</tbody>
+</table>
+<h3 id=""referenzen"">Referenzen</h3>
+<table class=""Table Grid"">
+<thead>
+<tr class=""header"">
+<th>RefID</th>
+<th>Verweis</th>
+<th>Kurzbeschr.</th>
+</tr>
+</thead>
+<tbody>
+<tr class=""odd"">
+<td>15</td>
+<td>ISO 9001:2015 - Quality management systems</td>
+<td>ISO 9001 ist eine weltweit anerkannte Norm für Qualitätsmanagement,
+die Organisationen dabei unterstützt, ihre Leistung zu verbessern,
+Kundenerwartungen zu erfüllen, Prozesse zu optimieren und durch
+regelmäßige Audits langfristigen Erfolg zu sichern.</td>
+</tr>
+<tr class=""even"">
+<td>33</td>
+<td>ISO/IEC 25012:2008 - Software engineering — Software product Quality
+Requirements and Evaluation (SQuaRE) — Data quality model</td>
+<td>Softwareentwicklung – Qualitätsanforderungen und Bewertung von
+Softwareprodukten (SQuaRE) – Datenqualitätsmodell</td>
+</tr>
+<tr class=""odd"">
+<td>175</td>
+<td>Rethinking Backdoor Attacks</td>
+<td>Bei einem Backdoor-Angriff fügt ein Angreifer böswillig konstruierte
+Backdoor-Beispiele in einen Trainingssatz ein, um das resultierende
+Modell anfällig für Manipulationen zu machen. Bei der Abwehr solcher
+Angriffe geht es in der Regel darum, diese eingefügten Beispiele als
+Ausreißer im Trainingssatz zu betrachten und Techniken aus robusten
+Statistiken zu verwenden, um sie zu erkennen und zu entfernen.</td>
+</tr>
+<tr class=""even"">
+<td>189</td>
+<td>Kriterienkatalog für KI-Cloud-Dienste – AIC4</td>
+<td>Der AIC4 (Artificial Intelligence Cloud Services Compliance Criteria
+Catalogue) ist ein Kriterienkatalog entwickelt vom Bundesamt für
+Sicherheit in der Informationstechnik (BSI) mit dem Ziel, die Sicherheit
+von KI-basierten Clouddiensten zu verbessern und zu
+standardisieren.</td>
+</tr>
+<tr class=""odd"">
+<td>190</td>
+<td>Kriterienkatalog C5</td>
+<td>Der C5 (Cloud Computing Compliance Criteria Catalogue) des
+Bundesamts für Sicherheit in der Informationstechnik (BSI) stellt einen
+detaillierten Kriterienkatalog dar, der grundlegende Anforderungen an
+die Informationssicherheit von Cloud-Diensten festlegt.</td>
+</tr>
+<tr class=""even"">
+<td>192</td>
+<td>Scaling Laws for Data Poisoning in LLMs</td>
+<td>Aktuelle Untersuchungen zeigen, dass LLMs anfällig für
+Datenvergiftung sind, bei der maliziöse oder fehlerhafte Daten zu
+schädlichem Verhalten führen. Die Studie untersucht drei
+Bedrohungsmodelle: böswillige Feinabstimmung, schlechte Datenverwaltung
+und absichtliche Kontamination. Experimente an 23 LLMs zeigen, dass
+größere Modelle anfälliger sind und schädliches Verhalten schneller
+erlernen. Dies unterstreicht die Notwendigkeit stärkerer Schutzmaßnahmen
+im Zuge der Skalierung von LLMs.</td>
+</tr>
+<tr class=""odd"">
+<td>230</td>
+<td>ISO/IEC TS 12791 - Information technology — Artificial intelligence
+— Treatment of unwanted bias in classification and regression machine
+learning tasks</td>
+<td>Information Technology – Artificial Intelligence – Behandlung
+unerwünschter Verzerrungen bei Klassifizierungs- und Regressionsaufgaben
+des maschinellen Lernens</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
+"
+9;QB-09 Quellenmanagement;QB-09 Quellenmanagement;QB-09 Quellenmanagement;Organisation und Überwachung der Datenherkunft für Qualität und Integrität.;;Qualitätsbaustein;;1;;QB-09;"<!DOCTYPE html>
+
+<html lang="""" xml:lang="""" xmlns=""http://www.w3.org/1999/xhtml"">
+<head>
+<meta charset=""utf-8""/>
+<meta content=""pandoc"" name=""generator""/>
+<meta content=""width=device-width, initial-scale=1.0, user-scalable=yes"" name=""viewport""/>
+<title>-</title>
+<style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type=""checkbox""] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<h2 id=""qb-09-quellenmanagement"">QB-09 Quellenmanagement</h2>
+<h3 id=""beschreibung"">Beschreibung</h3>
+<p>Quellenmanagement ist der übergreifende Ansatz, sämtliche
+Informationen einer Organisation vom ersten Entwurf bis zur
+Bereitstellung so zu steuern, dass ihre Qualität, Integrität und
+Nachvollziehbarkeit jederzeit nachweisbar sind. Provenienztracking
+(MA-18) stellt sicher, dass jede einzelne Dateneinheit lückenlos mit
+ihrem ursprünglichen Ursprung sowie allen nachfolgenden
+Verarbeitungsschritten verknüpft ist und damit jederzeit nachvollzogen
+werden kann. Ergänzend dazu protokollieren Audit Trails (MA-19)
+chronologisch und unveränderbar sämtliche Zugriffe auf Daten sowie alle
+vorgenommenen Änderungen, sodass ein vollständiger,
+manipulationssicherer Verlauf entsteht. Die Prozessdokumentation (MA-20)
+legt für jeden Arbeitsschritt detailliert fest, wer dafür verantwortlich
+ist, welche Ressourcen eingesetzt werden und welche Ergebnisse erwartet
+werden, und schafft so Transparenz über Abläufe und Zuständigkeiten.
+Schließlich sorgt die kontinuierliche Prüfung der Vertrauenswürdigkeit
+(MA-22) dafür, dass sämtliche genutzten Quellen fortlaufend auf ihre
+Glaubwürdigkeit und Unversehrtheit hin bewertet werden, um verlässliche
+und qualitativ hochwertige Daten sicherzustellen. Gemeinsam erzeugen
+diese Maßnahmen einen lückenlosen «digitalen Faden», der Transparenz,
+Compliance und Effizienz gleichermaßen stärkt.</p>
+<p>Häufig werden die Begriffe <strong>Quellen-Governance</strong>,
+<strong>Daten­herkunfts­management</strong> oder <strong>Source
+Governance</strong> verwendet; sie beschreiben dasselbe holistische
+Konzept, bei dem nicht nur die Provenienz, sondern auch Prozesse,
+Protokolle und Vertrauensprüfungen integriert betrachtet werden.</p>
+<p>Quellenmanagement überschneidet sich zwar mit Versions- und
+Konfigurationsmanagement, geht jedoch darüber hinaus: Es umfasst
+zusätzlich Audit-Fähigkeiten, formale Prozessdokumentation und
+systematische Vertrauenswürdigkeitsprüfungen – Aspekte, die in reinem
+Provenienz-Tracking oder klassischer Versionsverwaltung nicht abgedeckt
+sind.</p>
+<h4 id=""bedeutung-und-vorteile-des-quellenmanagements"">Bedeutung und
+Vorteile des Quellenmanagements:</h4>
+<ul>
+<li><p>Reproduzierbarkeit: Ermöglicht es Forschern und Entwicklern, die
+genauen Schritte und Datenquellen nachzuvollziehen, die zu einem
+bestimmten Modell geführt haben. Dies ist essentiell für die
+Wiederholung von Experimenten und die Validierung von
+Ergebnissen.</p></li>
+<li><p>Qualitätssicherung: Hilft dabei, die Qualität der Daten zu
+überprüfen und sicherzustellen, dass nur vertrauenswürdige und
+hochwertige Daten verwendet werden. Es erleichtert das Erkennen und
+Beheben von Datenproblemen oder Inkonsistenzen.</p></li>
+<li><p>Compliance und Governance: Erfüllt regulatorische Anforderungen
+und Unternehmensrichtlinien, indem es zeigt, dass die Daten auf
+verantwortungsvolle und transparente Weise verwendet wurden. Es
+unterstützt die Einhaltung von Datenschutzgesetzen und ethischen
+Richtlinien.</p></li>
+<li><p>Vertrauenswürdigkeit: Erhöht das Vertrauen in die Ergebnisse
+eines Modells, da die gesamte Datenhistorie nachvollziehbar und
+überprüfbar ist. Dies ist besonders wichtig in sensiblen Bereichen wie
+Medizin, Finanzen und Recht.</p></li>
+</ul>
+<h4 id=""bestandteile-des-quellenmanagement"">Bestandteile des
+Quellenmanagement:</h4>
+<ul>
+<li><strong>Datenquellen</strong>: Aufzeichnungen über die
+ursprünglichen Quellen der Daten, einschließlich Details wie der Name
+des Anbieters, Datum der Erfassung und der Kontext der Datensammlung.
+(MA-18, MA-22)</li>
+<li><strong>Verarbeitungsschritte</strong>: Dokumentation aller
+Datenverarbeitungs- und Bereinigungsprozesse, einschließlich der
+verwendeten Algorithmen und Tools. (MA-20)</li>
+<li><strong>Transformationen</strong>: Informationen über Änderungen und
+Transformationen der Daten, wie z.B. Normalisierung, Skalierung oder
+Feature-Engineering. (MA-20)</li>
+<li><strong>Versionierung</strong>: Historie der verschiedenen Versionen
+der Daten, um Änderungen im Laufe der Zeit zu verfolgen. (MA-20)</li>
+<li><strong>Metadaten</strong>: Zusätzliche Informationen, die die
+Kontextualisierung der Daten erleichtern, wie z.B. Zeitstempel,
+verantwortliche Personen und relevante Parameter.</li>
+</ul>
+<h3 id=""beispiele"">Beispiele</h3>
+<h4 id=""beispiel-1"">Beispiel 1</h4>
+<p>Ein pharmazeutisches Unternehmen führt ein Quellenmanagement ein, um
+Labor- und Studien­daten normkonform nach GxP zu verwalten. Jede
+Messdatei wird sofort mit Provenienz­ Metadaten (MA-18) in ein zentrales
+Repository übertragen; Zugriffe der Forschenden werden als Audit Trail
+(MA-19) unveränderbar protokolliert. Die SOP-basierte
+Prozess­do­ku­men­ta­tion (MA-20) verweist direkt auf die entsprechenden
+Audit-Einträge. Anschließend validiert ein automatisierter Check
+(MA-22), ob alle Daten aus zertifizierten Geräten stammen. Dadurch kann
+das Unternehmen gegenüber Behörden lückenlos nachweisen, dass keine
+Ergebnisse manipuliert wurden.</p>
+<h4 id=""beispiel-2"">Beispiel 2</h4>
+<p>Eine Nachrichtenagentur nutzt ein Quellenmanagement, um eingehende
+Meldungen aus sozialen Netzen zuverlässig zu verifizieren. Beim Import
+(MA-18) wird jede Quelle samt URL, Zeitstempel und Hash dokumentiert.
+Ein Ereignis-Audit Trail (MA-19) zeichnet alle redaktionellen Änderungen
+auf. Die redaktionellen Workflows (MA-20) verlangen, dass Faktenchecks
+abgeschlossen sind, bevor ein Artikel veröffentlicht wird. Parallel
+prüft ein KI-Dienst (MA-22) fortlaufend die Vertrauenswürdigkeit der
+Ursprungs-Accounts. So sinkt das Risiko, Falschinformationen zu
+verbreiten, und der Nachweis korrekter Berichterstattung ist jederzeit
+möglich.</p>
+<h3 id=""maßnahmen"">Maßnahmen</h3>
+<table class=""Table Grid"">
+<thead>
+<tr class=""header"">
+<th>Maßnahme</th>
+<th>Kurzbeschr.</th>
+</tr>
+</thead>
+<tbody>
+<tr class=""odd"">
+<td>MA-18_ProvenienzTracking</td>
+<td>Provenienztracking sichert Datenqualität, Herkunftsnachweis über
+verschiedene Felder.</td>
+</tr>
+<tr class=""even"">
+<td>MA-19_AuditTrails</td>
+<td>Audit Trails sind detaillierte, zeitlich geordnete Aufzeichnungen
+von Aktivitäten in einem System, die dazu dienen, Änderungen und
+Zugriffe nachvollziehbar zu dokumentieren. Sie sind entscheidend für die
+Sicherstellung von Transparenz, Sicherheit und Compliance in
+verschiedenen Bereichen, wie IT-Sicherheit und Qualitätsmanagement.</td>
+</tr>
+<tr class=""odd"">
+<td>MA-20 Prozess Dokumentation</td>
+<td>Detaillierte Prozessdokumentationen sollten alle Aktivitäten,
+Verantwortlichkeiten, Ressourcen, erwarteten Ergebnisse und beteiligten
+Personen umfassen, um den Schöpfungsprozess transparent zu machen und
+den Anforderungen verschiedener Normen zu entsprechen.</td>
+</tr>
+<tr class=""even"">
+<td>MA-22 Vertrauenswürdigkeit</td>
+<td>Glaubwürdigkeit, Vertrauenswürdigkeit der Datenquelle muss bestätigt
+werden</td>
+</tr>
+</tbody>
+</table>
+<h3 id=""referenzen"">Referenzen</h3>
+<table class=""Table Grid"">
+<thead>
+<tr class=""header"">
+<th>RefID</th>
+<th>Verweis</th>
+<th>Kurzbeschr.</th>
+</tr>
+</thead>
+<tbody>
+<tr class=""odd"">
+<td>1</td>
+<td>ISO 8000-2:2022 - Data quality — Part 2: Vocabulary</td>
+<td>Dieses Dokument beschreibt das Vokabular oder Glossar der ISO 8000
+Reihe.</td>
+</tr>
+<tr class=""even"">
+<td>3</td>
+<td>ISO 8000-51:2023 - Data quality — Part 51: Data governance: Exchange
+of data policy statements</td>
+<td>Die ISO 8000-51:2023 ist eine internationale Norm, die Richtlinien
+für den Austausch von Datenpolitik-Erklärungen bietet, um die
+Datenqualität zu verbessern und eine effektive
+Daten-Governance-Strategie in Organisationen zu unterstützen.</td>
+</tr>
+<tr class=""odd"">
+<td>6</td>
+<td>ISO 8000-62:2018 - Data quality — Part 62: Data quality management:
+Organizational process maturity assessment: Application of standards
+relating to process assessment</td>
+<td>Beschreibt ein Reifegradmodell um den Prozess aus 8000-61 bewerten
+zu können. Darüber hinaus werden Reifegrad Level festgelegt.</td>
+</tr>
+<tr class=""even"">
+<td>7</td>
+<td>ISO 8000-63:2019 - Data quality — Part 63: Data quality management:
+Process measurement</td>
+<td>Die ISO 8000-63 ist eine 2019 veröffentlichte Norm, die Richtlinien
+zur Messung und Verbesserung von Datenqualitätsmanagementprozessen
+bietet, einschließlich Reifegradmodellen und Inspektionsplänen, um
+Unternehmen bei der effektiven Steuerung ihrer Datenqualitätsinitiativen
+zu unterstützen.</td>
+</tr>
+<tr class=""odd"">
+<td>12</td>
+<td>ISO 8000-100:2016 - Data quality — Part 100: Master data: Exchange
+of characteristic data: Overview</td>
+<td>Die ISO/TS 8000-82:2022 behandelt die Datenqualitätsbewertung durch
+Anwendung von Datenregeln auf verschiedene Datentypen, einschließlich
+Identifikatoren, Währungen und Datums-/Zeitangaben. Sie betont die
+Bedeutung von Datenprofiling bei der Formulierung effektiver
+Datenregeln, um die Integrität und Zuverlässigkeit von Daten in
+Informationssystemen sicherzustellen.</td>
+</tr>
+<tr class=""even"">
+<td>17</td>
+<td>ISO/IEC 5259-1:2024 - Artificial intelligence — Data quality for
+analytics and machine learning (ML) — Part 1: Overview, terminology, and
+examples</td>
+<td>Dieser Standard bietet eine Übersicht und definiert die Terminologie
+sowie Beispiele zur Datenqualität im Kontext von Analytik und
+maschinellem Lernen. Er adressiert die Bedeutung der Ausgewogenheit von
+Trainingsdaten als Teil der Datenqualitätsanforderungen.</td>
+</tr>
+<tr class=""odd"">
+<td>19</td>
+<td>ISO/IEC 5259-3:2024 - Artificial intelligence — Data quality for
+analytics and machine learning (ML) — Part 3: Data quality management
+requirements and guidelines</td>
+<td>Dieses Dokument definiert allgemeine Anforderungen und Leitlinien
+für die Verbesserung, Implementierung und Aufrechterhaltung der
+Datenqualität in Analytik und maschinellem Lernen, anwendbar auf alle
+Organisationen unabhängig von Art, Größe oder Beschaffenheit, ohne
+detaillierte Prozesse, Methoden oder Metriken vorzugeben.</td>
+</tr>
+<tr class=""even"">
+<td>22</td>
+<td>ISO/IEC 5339 Artificial intelligence — Guidance for AI
+applications</td>
+<td>Dieses Dokument definiert Prozesse zur Verwaltung des Lebenszyklus
+von KI-Systemen basierend auf maschinellem Lernen und heuristischen
+Methoden, unter Einbeziehung von ISO/IEC/IEEE 15288, ISO/IEC/IEEE 12207
+sowie KI-spezifischen Ergänzungen aus ISO/IEC 22989 und ISO/IEC 23053.
+Es bietet Richtlinien zur Definition, Kontrolle, Verwaltung, Ausführung
+und Verbesserung von KI-Systemen, die auch für traditionelle Software-
+und Systemelemente anwendbar sind.</td>
+</tr>
+<tr class=""odd"">
+<td>25</td>
+<td>ISO/IEC 20546:2019 - Information technology — Big data — Overview
+and vocabulary</td>
+<td>Information technology — Big data — Overview and vocabulary bietet
+eine umfassende Übersicht über Big Data, einschließlich der
+Terminologie, Konzepte und allgemeinen Prinzipien, die mit Big
+Data-Technologien und -Anwendungen verbunden sind. Es dient als
+Grundlage für das Verständnis und die Kommunikation im Bereich Big
+Data.</td>
+</tr>
+<tr class=""even"">
+<td>151</td>
+<td>ISO/IEC FDIS 5259-5 - Artificial intelligence — Data quality for
+analytics and machine learning (ML) — Part 5: Data quality governance
+framework</td>
+<td>Ein Framework zur Implementierung und Überwachung von
+Datenqualitätsmaßnahmen im gesamten Lebenszyklus von Analyse- und
+ML-Projekten, ohne dabei Management- oder Prozessvorgaben aus ISO
+5259-3/4 zu wiederholen.</td>
+</tr>
+<tr class=""odd"">
+<td>167</td>
+<td>Beyond Accuracy: What Data Quality Means to Data Consumers</td>
+<td>Die Studie entwickelt ein Rahmenwerk für Datenqualität, das die
+Bedürfnisse der Datenkonsumenten erfasst und zeigt, dass Datenqualität
+neben Genauigkeit auch Aspekte wie Kontext, Repräsentation und
+Zugänglichkeit umfasst, wodurch Unternehmen die Datenanforderungen
+besser verstehen und erfüllen können.</td>
+</tr>
+<tr class=""even"">
+<td>169</td>
+<td>Preventing Machine Learning Poisoning Attacks Using Authentication
+and Provenance</td>
+<td>Das Papier präsentiert das VAMP-System, das mithilfe
+kryptografischer Hash-Prüfsummen und Provenienzverfolgung über ein
+verteiltes Ledger sowie Azure-Webdienste die Integrität von Daten,
+Software und Modellen in ML-Systemen schützt.</td>
+</tr>
+<tr class=""odd"">
+<td>189</td>
+<td>Kriterienkatalog für KI-Cloud-Dienste – AIC4</td>
+<td>Der AIC4 (Artificial Intelligence Cloud Services Compliance Criteria
+Catalogue) ist ein Kriterienkatalog entwickelt vom Bundesamt für
+Sicherheit in der Informationstechnik (BSI) mit dem Ziel, die Sicherheit
+von KI-basierten Clouddiensten zu verbessern und zu
+standardisieren.</td>
+</tr>
+<tr class=""even"">
+<td>190</td>
+<td>Kriterienkatalog C5</td>
+<td>Der C5 (Cloud Computing Compliance Criteria Catalogue) des
+Bundesamts für Sicherheit in der Informationstechnik (BSI) stellt einen
+detaillierten Kriterienkatalog dar, der grundlegende Anforderungen an
+die Informationssicherheit von Cloud-Diensten festlegt.</td>
+</tr>
+<tr class=""odd"">
+<td>192</td>
+<td>Scaling Laws for Data Poisoning in LLMs</td>
+<td>Aktuelle Untersuchungen zeigen, dass LLMs anfällig für
+Datenvergiftung sind, bei der maliziöse oder fehlerhafte Daten zu
+schädlichem Verhalten führen. Die Studie untersucht drei
+Bedrohungsmodelle: böswillige Feinabstimmung, schlechte Datenverwaltung
+und absichtliche Kontamination. Experimente an 23 LLMs zeigen, dass
+größere Modelle anfälliger sind und schädliches Verhalten schneller
+erlernen. Dies unterstreicht die Notwendigkeit stärkerer Schutzmaßnahmen
+im Zuge der Skalierung von LLMs.</td>
+</tr>
+<tr class=""even"">
+<td>221</td>
+<td>Cyber Resilience Act - Proposal for a REGULATION OF THE EUROPEAN
+PARLIAMENT AND OF THE COUNCIL on horizontal cybersecurity requirements
+for products with digital elements and amending Regulation (EU)
+2019/1020</td>
+<td>Das Dokument schlägt eine Verordnung vor, um EU-weite
+Cybersicherheitsanforderungen für digitale Produkte festzulegen, mit dem
+Ziel, die Sicherheit über den gesamten Produktlebenszyklus hinweg zu
+verbessern, Schwachstellen anzugehen und Transparenz für die Nutzer zu
+gewährleisten. Es strebt an, fragmentierte nationale Vorschriften zu
+verhindern und die Sicherheit auf dem Binnenmarkt zu erhöhen.</td>
+</tr>
+<tr class=""odd"">
+<td>225</td>
+<td>Lessons for Editors of AI Incidents from the AI Incident
+Database</td>
+<td>Die AI Incident Database (AIID) dokumentiert über 750 KI-Vorfälle,
+um die Analyse und Forschung zu unterstützen. Eine Untersuchung zeigt,
+dass bestimmte Vorfälle strukturelle Ambiguitäten aufweisen, die die
+Kategorisierung erschweren. Es wird festgestellt, dass epistemische
+Unsicherheit bei der Berichterstattung unvermeidbar ist und es werden
+Maßnahmen vorgeschlagen, um die Prozesse robuster gegenüber
+Unsicherheiten bezüglich Ursache, Schaden und technischen Details zu
+machen.</td>
+</tr>
+<tr class=""even"">
+<td>235</td>
+<td>Data Governance Act - Regulation (EU) 2022/868 of the European
+Parliament and of the Council of 30 May 2022 on European data governance
+and amending Regulation (EU) 2018/1724 (Data Governance Act) (Text with
+EEA relevance)</td>
+<td>Die Verordnung (EU) 2022/868 über europäische Daten-Governance
+schafft einen harmonisierten Rahmen für die Nutzung und Weiterverwendung
+von Daten in der EU, um Innovation und einen digitalen Binnenmarkt zu
+fördern. Sie regelt gemeinsame Datenräume, sichere
+Datenweiterverwendung, freiwilligen Datenaltruismus und neutrale
+Datenvermittlungsdienste, wobei Datenschutz und Grundrechte
+gewährleistet bleiben.</td>
+</tr>
+<tr class=""odd"">
+<td>236</td>
+<td>Digital Markets Act - Verordnung (EU) 2022/1925 des Europäischen
+Parlaments und des Rates vom 14. September 2022 über bestreitbare und
+faire Märkte im digitalen Sektor und zur Änderung der Richtlinien (EU)
+2019/1937 und (EU) 2020/1828 (Gesetz über digitale Märkte) (Text von
+Bedeutung für den EWR)</td>
+<td>Die Verordnung (EU) 2022/1925, das Gesetz über digitale Märkte
+(DMA), regelt zentrale Plattformdienste großer Torwächter, um faire
+Wettbewerbsbedingungen, Marktbesteitbarkeit und den Schutz von Nutzern
+und Unternehmen im digitalen Sektor zu gewährleisten.</td>
+</tr>
+<tr class=""even"">
+<td>237</td>
+<td>Digital Services Act - Verordnung (EU) 2022/2065 des Europäischen
+Parlaments und des Rates vom 19. Oktober 2022 über einen Binnenmarkt für
+digitale Dienste und zur Änderung der Richtlinie 2000/31/EG (Gesetz über
+digitale Dienste) (Text von Bedeutung für den EWR)</td>
+<td>Die Verordnung (EU) 2022/2065 über digitale Dienste harmonisiert
+Vorschriften für Vermittlungsdienste in der EU, stärkt den Schutz von
+Grundrechten, bekämpft rechtswidrige Inhalte und schafft ein sicheres,
+transparentes Online-Umfeld.</td>
+</tr>
+<tr class=""odd"">
+<td>247</td>
+<td>Data version control</td>
+<td>Die Datenversionskontrolle ist ein System zum Verwalten und
+Nachverfolgen von Änderungen an Datensätzen, das für Datenanalyse und
+Forschung optimiert ist. Es bietet Funktionen, die speziell für die
+Handhabung großer Datensätze konzipiert sind und die Zusammenarbeit
+erleichtern.</td>
+</tr>
+<tr class=""even"">
+<td>257</td>
+<td>AMP: Authentication of Media via Provenance</td>
+<td>AMP ist ein System zur Authentifizierung von Medien, das deren
+Herkunft durch vom Herausgeber signierte Manifeste zertifiziert, die in
+einer Datenbank gespeichert und über das Confidential Consortium
+Framework (CCF) auf einer erlaubnisbasierten Blockchain registriert
+werden, um Integrität, Transparenz und Nachprüfbarkeit zu gewährleisten,
+wobei die Authentizität durch visuelle Browser-Indikatoren kommuniziert
+wird.</td>
+</tr>
+<tr class=""odd"">
+<td>274</td>
+<td>CycloneDX SBOM Standard</td>
+<td>CycloneDX ist ein moderner Standard für die Software-Lieferkette,
+der als OWASP-Projekt ratifiziert wurde und verschiedene Formate wie
+SBOM, SaaSBOM, CBOM, OBOM und VEX umfasst.</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
+"
+10;QB-10_DataChecks;QB-10_DataChecks;QB-10_Datenprüfung;Überprüfung von Trainingsdaten sichert Qualität vor dem Modelltraining.;;Qualitätsbaustein;;1;;QB-10;"<!DOCTYPE html>
+
+<html lang="""" xml:lang="""" xmlns=""http://www.w3.org/1999/xhtml"">
+<head>
+<meta charset=""utf-8""/>
+<meta content=""pandoc"" name=""generator""/>
+<meta content=""width=device-width, initial-scale=1.0, user-scalable=yes"" name=""viewport""/>
+<title>-</title>
+<style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type=""checkbox""] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<h2 id=""qb-10-datachecks"">QB-10 DataChecks</h2>
+<h3 id=""beschreibung"">Beschreibung</h3>
+<p>Datenprüfungen von Trainingsdaten für maschinelles Lernen enthalten
+die systematische Überprüfung und Analyse der Datenqualität und
+-integrität. Diese Aktionen finden statt, bevor diese Daten für das
+Training von Modellen verwendet werden. Ihr Zweck ist es
+sicherzustellen, dass die Trainingsdaten den erwarteten Standards
+entsprechen und keine Fehler oder Mängel aufweisen die die Leistung des
+Modells beeinträchtigen könnten. Diese Überprüfungen sind ein kritischer
+Schritt im Datenbereinigungs- und Vorbereitungsprozess und helfen dabei,
+Probleme wie fehlende Werte, inkonsistente Formate, Ausreißer,
+Duplikate, Bias und andere Unregelmäßigkeiten zu identifizieren und zu
+korrigieren.</p>
+<h3 id=""maßnahmen"">Maßnahmen</h3>
+<table class=""Table Grid"">
+<thead>
+<tr class=""header"">
+<th>Maßnahme</th>
+<th>Kurzbeschr.</th>
+</tr>
+</thead>
+<tbody>
+<tr class=""odd"">
+<td>MA-05 Automatisierte Aufgaben</td>
+<td>Skripte können wiederkehrende Aufgaben automatisieren</td>
+</tr>
+<tr class=""even"">
+<td>MA-20 Prozess Dokumentation</td>
+<td>Detaillierte Prozessdokumentationen sollten alle Aktivitäten,
+Verantwortlichkeiten, Ressourcen, erwarteten Ergebnisse und beteiligten
+Personen umfassen, um den Schöpfungsprozess transparent zu machen und
+den Anforderungen verschiedener Normen zu entsprechen.</td>
+</tr>
+<tr class=""odd"">
+<td>MA-26_Federated Learning</td>
+<td>Federated Learning ermöglicht das gemeinsame Trainieren von
+Modellen, ohne dass sensible Daten zentralisiert werden, um Datenschutz
+und Sicherheit zu gewährleisten.</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
+"
+11;QB-11 Prozesse;QB-11 Prozesse;QB-11 Prozesse;Dokumentation sichert Abläufe und Prozesse in IT-Infrastruktur und Softwareentwicklung.;;Qualitätsbaustein;;1;;QB-11;"<!DOCTYPE html>
+
+<html lang="""" xml:lang="""" xmlns=""http://www.w3.org/1999/xhtml"">
+<head>
+<meta charset=""utf-8""/>
+<meta content=""pandoc"" name=""generator""/>
+<meta content=""width=device-width, initial-scale=1.0, user-scalable=yes"" name=""viewport""/>
+<title>-</title>
+<style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type=""checkbox""] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<h2 id=""qb-11-prozesse"">QB-11 Prozesse</h2>
+<h3 id=""beschreibung"">Beschreibung</h3>
+<p>Der Prozessbaustein stellt den korrekten Ablauf und die Dokumentation
+von Prozessen sicher. (Siehe Grundschutz-Bausteine zur
+Prozessdokumentation). Präzise Prozesse zur Datendokumentation stärken
+die Datenintegrität und unterstützen Compliance, Qualität, Management
+und Automatisierung für maschinelles Lernen.</p>
+<p>Eine lückenlose Dokumentation von Prozessen ermöglicht es, die
+Herkunft, Verarbeitungsschritte und Veränderungen der Trainingsdaten
+nachvollziehbar zu machen. Dies ist nicht nur entscheidend für die
+Qualitätssicherung der Datengrundlage, sondern auch für die Validierung
+und Reproduzierbarkeit von Machine-Learning-Modellen.</p>
+<p>Durch die Integration von spezifischen Qualitätsmetriken und die
+kontinuierliche Überwachung der Datenprozesse wird sichergestellt, dass
+die Daten den Anforderungen an Korrektheit, Konsistenz und
+Repräsentativität entsprechen – Aspekte, die maßgeblich zum Erfolg und
+zur Vertrauenswürdigkeit der Modelle beitragen.</p>
+<h3 id=""beispiele"">Beispiele</h3>
+<h4 id=""bsi-it-grundschutz---prozessbausteine"">BSI IT-Grundschutz -
+Prozessbausteine</h4>
+<p>Eine Prozessbeschreibung kann viele verschiedene Variationen
+annehmen. Diese hängen jeweils vom Use Case ab und können entsprechend
+anders strukturiert sein. Beispiele hierfür gibt der BSI IT-Grundschutz
+an die Hand:</p>
+<p>INF.1 Allgemeiner Infrastrukturbetrieb: Dieser Baustein beinhaltet
+Empfehlungen für die Dokumentation der Betriebsprozesse der
+IT-Infrastruktur.</p>
+<p>OPR.1.1 IT-Betriebsdokumentation: Konzentriert sich auf die
+Notwendigkeit, alle relevanten Informationen zum IT-Betrieb umfassend zu
+dokumentieren, einschließlich der Verfahren, Richtlinien und
+Anweisungen.</p>
+<p>DER.1 Entwicklung und Bereitstellung von Software: Dieser Baustein
+deckt die Dokumentation im Rahmen der Softwareentwicklung und
+-bereitstellung ab, inklusive der Anforderungen, des Designs, der
+Implementierung und der Tests.</p>
+<p>OPR.4 Notfallvorsorge: Beinhaltet Anforderungen an die Dokumentation
+von Notfallplänen und -prozessen, um die Fortführung kritischer
+Geschäftsprozesse im Notfall zu gewährleisten.</p>
+<p>MAN.1 Management von IT-Verfahren: Betrifft die Dokumentation von
+Managementprozessen im Bereich der IT, einschließlich der Planung,
+Steuerung und Überwachung.</p>
+<p>MAN.3 Prozessbeschreibungen und Verfahrensanweisungen: Dieser
+Baustein fokussiert sich direkt auf die Erstellung, Pflege und
+Aktualisierung von Prozessdokumentationen und Verfahrensanweisungen.</p>
+<p>MAN.5 Dokumentation: Er umfasst allgemeine Anforderungen an die
+Dokumentation von IT-Systemen, Anwendungen und Prozessen, um eine
+angemessene Informationsgrundlage für den Betrieb, die Wartung und die
+Notfallvorsorge zu schaffen.</p>
+<h5 id=""grundschutz"">Grundschutz++:</h5>
+<p>Der zukünftige BSI IT-Grundschutz nutzt einen prozessbasierten
+Ansatz, der die Analyse von Organisationseinheiten erleichtert.</p>
+<h3 id=""maßnahmen"">Maßnahmen</h3>
+<table class=""Table Grid"">
+<thead>
+<tr class=""header"">
+<th>Maßnahme</th>
+<th>Kurzbeschr.</th>
+</tr>
+</thead>
+<tbody>
+<tr class=""odd"">
+<td>MA-18_ProvenienzTracking</td>
+<td>Provenienztracking sichert Datenqualität, Herkunftsnachweis über
+verschiedene Felder.</td>
+</tr>
+<tr class=""even"">
+<td>MA-21_Compliance</td>
+<td>Bei der Behandlung von Trainingsdaten müssen Gesetzgebung und
+diverse Standards eingehalten werden.</td>
+</tr>
+</tbody>
+</table>
+<h3 id=""referenzen"">Referenzen</h3>
+<table class=""Table Grid"">
+<thead>
+<tr class=""header"">
+<th>RefID</th>
+<th>Verweis</th>
+<th>Kurzbeschr.</th>
+</tr>
+</thead>
+<tbody>
+<tr class=""odd"">
+<td>7</td>
+<td>ISO 8000-63:2019 - Data quality — Part 63: Data quality management:
+Process measurement</td>
+<td>Die ISO 8000-63 ist eine 2019 veröffentlichte Norm, die Richtlinien
+zur Messung und Verbesserung von Datenqualitätsmanagementprozessen
+bietet, einschließlich Reifegradmodellen und Inspektionsplänen, um
+Unternehmen bei der effektiven Steuerung ihrer Datenqualitätsinitiativen
+zu unterstützen.</td>
+</tr>
+<tr class=""even"">
+<td>8</td>
+<td>ISO 8000-64:2022 - Data quality — Part 64: Data quality management:
+Organizational process maturity assessment: Application of the Test
+Process Improvement method</td>
+<td>Beschreibt die Test Process Improvement um die Maturity des Data
+Quality Management Prozesses bewerten zu können.</td>
+</tr>
+<tr class=""odd"">
+<td>14</td>
+<td>ISO 8000-150:2022 - Data quality — Part 150: Data quality
+management: Roles and responsibilities</td>
+<td>Dieses Dokument legt die wichtigsten Überlegungen für die Festlegung
+von Rollen und Verantwortlichkeiten im Datenqualitätsmanagement fest und
+bietet ein Rahmenwerk sowie Beispiel-Szenarien zur Implementierung.</td>
+</tr>
+<tr class=""even"">
+<td>17</td>
+<td>ISO/IEC 5259-1:2024 - Artificial intelligence — Data quality for
+analytics and machine learning (ML) — Part 1: Overview, terminology, and
+examples</td>
+<td>Dieser Standard bietet eine Übersicht und definiert die Terminologie
+sowie Beispiele zur Datenqualität im Kontext von Analytik und
+maschinellem Lernen. Er adressiert die Bedeutung der Ausgewogenheit von
+Trainingsdaten als Teil der Datenqualitätsanforderungen.</td>
+</tr>
+<tr class=""odd"">
+<td>19</td>
+<td>ISO/IEC 5259-3:2024 - Artificial intelligence — Data quality for
+analytics and machine learning (ML) — Part 3: Data quality management
+requirements and guidelines</td>
+<td>Dieses Dokument definiert allgemeine Anforderungen und Leitlinien
+für die Verbesserung, Implementierung und Aufrechterhaltung der
+Datenqualität in Analytik und maschinellem Lernen, anwendbar auf alle
+Organisationen unabhängig von Art, Größe oder Beschaffenheit, ohne
+detaillierte Prozesse, Methoden oder Metriken vorzugeben.</td>
+</tr>
+<tr class=""even"">
+<td>21</td>
+<td>ISO/IEC 5338:2023 - Information technology — Artificial intelligence
+— AI system life cycle processes</td>
+<td>Standardisiertes Verfahren und Rahmenwerk zur Sicherstellung der
+Datenqualität für Analytik und maschinelles Lernen einschließlich
+spezifischer Prozesse und Leitlinien gemäß den ISO/IEC
+5259-Standards.</td>
+</tr>
+<tr class=""odd"">
+<td>27</td>
+<td>ISO/IEC 22624:2020 - Information technology — Cloud computing —
+Taxonomy based data handling for cloud services</td>
+<td>Dieses Dokument bietet ein Rahmenwerk und Leitlinien für das
+taxonomiebasierte Datenmanagement in Cloud-Computing-Umgebungen,
+einschließlich datenbezogener Richtlinien und Praktiken, und richtet
+sich an Cloud-Dienstanbieter, -nutzer sowie an alle, die sich mit den
+Auswirkungen des Datenmanagements in Cloud-Diensten befassen.</td>
+</tr>
+<tr class=""even"">
+<td>30</td>
+<td>ISO/IEC 23894:2023 - AI – Guidance on risk management</td>
+<td>Dieses Dokument bietet Leitlinien für das Management von
+KI-spezifischen Risiken in Organisationen, die KI-Produkte, -Systeme
+oder -Dienstleistungen entwickeln oder nutzen. Es hilft dabei,
+Risikomanagement in KI-bezogene Aktivitäten zu integrieren und
+beschreibt anpassbare Prozesse zur effektiven Umsetzung des
+KI-Risikomanagements.</td>
+</tr>
+<tr class=""odd"">
+<td>38</td>
+<td>ISO/IEC 42001:2023 - AI management systems</td>
+<td>Die ISO/IEC 42001 ist ein internationaler Standard, der
+Anforderungen für die Einrichtung, Implementierung, Aufrechterhaltung
+und kontinuierliche Verbesserung eines KI-Managementsystems (AIMS) in
+Organisationen festlegt. Er richtet sich an Unternehmen, die KI-basierte
+Produkte oder Dienstleistungen anbieten oder nutzen, und stellt sicher,
+dass KI-Systeme verantwortungsvoll entwickelt und eingesetzt
+werden.</td>
+</tr>
+<tr class=""even"">
+<td>54</td>
+<td>ISO/IEC/IEEE 15288:2023 - Systems and software engineering — System
+life cycle processes</td>
+<td>Dieses Dokument definiert einen gemeinsamen Rahmen für
+Lebenszyklus-Prozessbeschreibungen von Systemen, anwendbar auf alle
+Phasen des Systemlebenszyklus, und unterstützt die Systementwicklung
+sowie den Informationsaustausch zwischen Käufern, Lieferanten und
+anderen Beteiligten, ohne ein spezifisches Lebenszyklusmodell oder eine
+Entwicklungsmethodik festzulegen.</td>
+</tr>
+<tr class=""odd"">
+<td>56</td>
+<td>DIN SPEC 92005:2024-03, Künstliche Intelligenz_- Quantifizierung von
+Unsicherheiten im Maschinellen Lernen; Text Englisch</td>
+<td>Diese DIN SPEC definiert allgemeine Richtlinien und technische
+Anforderungen für die Quantifizierung von Unsicherheiten im maschinellen
+Lernen (ML) und bietet einen Überblick über verfügbare Ansätze und deren
+Anwendung, jedoch ohne spezifische Anforderungen für sicherheits- und
+gesundheitsschutzrelevante Funktionen.</td>
+</tr>
+<tr class=""even"">
+<td>57</td>
+<td>Data quality requirements for inclusive, non-biased and trustworthy
+AI: putting science into standards.</td>
+<td>Das Dokument beschreibt die Anforderungen an die Datenqualität für
+inklusive, unvoreingenommene und vertrauenswürdige KI, basierend auf
+einem Workshop der Gemeinsamen Forschungsstelle der Europäischen
+Kommission und europäischer Standardisierungsorganisationen, der die
+Bedeutung von Normen für KI-Daten sowie die Einbeziehung relevanter
+Interessengruppen zur Sicherstellung ethischer und marktfähiger
+KI-Systeme hervorhob.</td>
+</tr>
+<tr class=""odd"">
+<td>143</td>
+<td>ISO/IEC 27701:2019 - Extension to ISO/IEC 27001 and ISO/IEC 27002
+for privacy information management</td>
+<td>Sicherheitstechniken – Erweiterung auf ISO/IEC 27001 und ISO/IEC
+27002 für das Datenschutzinformationsmanagement – ​​Anforderungen und
+Richtlinien</td>
+</tr>
+<tr class=""even"">
+<td>151</td>
+<td>ISO/IEC FDIS 5259-5 - Artificial intelligence — Data quality for
+analytics and machine learning (ML) — Part 5: Data quality governance
+framework</td>
+<td>Ein Framework zur Implementierung und Überwachung von
+Datenqualitätsmaßnahmen im gesamten Lebenszyklus von Analyse- und
+ML-Projekten, ohne dabei Management- oder Prozessvorgaben aus ISO
+5259-3/4 zu wiederholen.</td>
+</tr>
+<tr class=""odd"">
+<td>153</td>
+<td>ISO 8000-66:2021 - Data quality — Part 66: Data quality management:
+Assessment indicators for data processing in manufacturing
+operations</td>
+<td>Die ISO 8000-66 bietet Indikatoren zur Bewertung der Datenqualität
+bei der Datenverarbeitung in der Fertigung, um qualitativ hochwertige
+Daten für effiziente Produktionsprozesse sicherzustellen, und
+konzentriert sich auf das Datenqualitätsmanagement im Fertigungssektor
+innerhalb der gesamten ISO 8000-Reihe.</td>
+</tr>
+<tr class=""even"">
+<td>179</td>
+<td>DAMA-DMBOK: data management body of knowledge</td>
+<td>Der DAMA-DMBOK2-Leitfaden bietet Fach- und Führungskräften einen
+umfassenden Rahmen für alle Bereiche des Datenmanagements – von
+Governance über Architektur, Entwicklung, Betrieb, Sicherheit und
+Qualität bis hin zu Business Intelligence, Metadaten und beruflicher
+Weiterbildung.</td>
+</tr>
+<tr class=""odd"">
+<td>199</td>
+<td>What is red teaming for generative AI? - IBM Research</td>
+<td>Dieses Dokument beschreibt eine Methodik zur Auswahl, Anwendung und
+Verwaltung formaler Methoden zur Bewertung und zum Nachweis der
+Robustheitseigenschaften von neuronalen Netzen.</td>
+</tr>
+<tr class=""even"">
+<td>206</td>
+<td>Open Data Act</td>
+<td>RICHTLINIE (EU) 2019/ 1024 DES EUROPÄISCHEN PARLAMENTS UND DES RATES
+- vom 20. Juni 2019 - über offene Daten und die Weiterverwendung von
+Informationen des öffentlichen Sektors</td>
+</tr>
+<tr class=""odd"">
+<td>208</td>
+<td>Planen von Red Teaming für große Sprachmodelle (Large Language
+Models, LLMs) und deren Anwendungen - Azure OpenAI Service | Microsoft
+Learn</td>
+<td>Diese MS-Seite zu Red Teaming für große Sprachmodelle (LLMs)
+konzentriert sich auf das Testen von KI-Systemen, um Risiken wie die
+Generierung schädlicher Inhalte zu erkennen. Es unterstreicht die
+Bedeutung vielfältiger Teams und einer gründlichen Bewertung, um die
+Sicherheit und Verantwortung der KI zu gewährleisten.</td>
+</tr>
+<tr class=""even"">
+<td>211</td>
+<td>Microsoft AI Red Team | Microsoft Learn</td>
+<td>Auf der Seite des Microsoft AI Red Team wird das Testen von
+KI-Systemen auf Sicherheitsrisiken beschrieben, wobei der Schwerpunkt
+auf Bedrohungsmodellierung und Risikominderung liegt, um KI vor
+gegnerischen Bedrohungen zu schützen..</td>
+</tr>
+<tr class=""odd"">
+<td>213</td>
+<td>ISO/IEC 25059:2023 - Software engineering — Systems and software
+Quality Requirements and Evaluation (SQuaRE) — Quality model for AI
+systems</td>
+<td>Das Dokument stellt ein Qualitätsmodell für KI-Systeme als
+Erweiterung der SQuaRE-Standards vor. Es definiert Schlüsselmerkmale und
+Untermerkmale, um die Spezifikation, Messung und Bewertung der Qualität
+von KI-Systemen zu standardisieren und eine konsistente und vollständige
+Bewertung der Qualitätsanforderungen sicherzustellen.</td>
+</tr>
+<tr class=""even"">
+<td>225</td>
+<td>Lessons for Editors of AI Incidents from the AI Incident
+Database</td>
+<td>Die AI Incident Database (AIID) dokumentiert über 750 KI-Vorfälle,
+um die Analyse und Forschung zu unterstützen. Eine Untersuchung zeigt,
+dass bestimmte Vorfälle strukturelle Ambiguitäten aufweisen, die die
+Kategorisierung erschweren. Es wird festgestellt, dass epistemische
+Unsicherheit bei der Berichterstattung unvermeidbar ist und es werden
+Maßnahmen vorgeschlagen, um die Prozesse robuster gegenüber
+Unsicherheiten bezüglich Ursache, Schaden und technischen Details zu
+machen.</td>
+</tr>
+<tr class=""odd"">
+<td>231</td>
+<td>DIN SPEC 92001-1:2019-04, Künstliche Intelligenz_- Life Cycle
+Prozesse und Qualitätsanforderungen_- Teil_1: Qualitäts-Meta-Modell;
+Text Englisch</td>
+<td>Die DIN SPEC 92001 bietet ein Qualitätsmetamodell für Künstliche
+Intelligenz, das wesentliche Merkmale wie Leistung, Robustheit und
+Verständlichkeit beschreibt, und stützt sich dabei auf den
+KI-Lebenszyklus gemäß ISO/IEC/IEEE 12207:2017. Ziel der DIN SPEC-Reihe
+ist es, eine sichere und transparente Entwicklung und Nutzung von
+KI-Modulen über alle Lebenszyklusphasen hinweg zu ermöglichen,
+unabhängig von der Branche.</td>
+</tr>
+<tr class=""even"">
+<td>235</td>
+<td>Data Governance Act - Regulation (EU) 2022/868 of the European
+Parliament and of the Council of 30 May 2022 on European data governance
+and amending Regulation (EU) 2018/1724 (Data Governance Act) (Text with
+EEA relevance)</td>
+<td>Die Verordnung (EU) 2022/868 über europäische Daten-Governance
+schafft einen harmonisierten Rahmen für die Nutzung und Weiterverwendung
+von Daten in der EU, um Innovation und einen digitalen Binnenmarkt zu
+fördern. Sie regelt gemeinsame Datenräume, sichere
+Datenweiterverwendung, freiwilligen Datenaltruismus und neutrale
+Datenvermittlungsdienste, wobei Datenschutz und Grundrechte
+gewährleistet bleiben.</td>
+</tr>
+<tr class=""odd"">
+<td>236</td>
+<td>Digital Markets Act - Verordnung (EU) 2022/1925 des Europäischen
+Parlaments und des Rates vom 14. September 2022 über bestreitbare und
+faire Märkte im digitalen Sektor und zur Änderung der Richtlinien (EU)
+2019/1937 und (EU) 2020/1828 (Gesetz über digitale Märkte) (Text von
+Bedeutung für den EWR)</td>
+<td>Die Verordnung (EU) 2022/1925, das Gesetz über digitale Märkte
+(DMA), regelt zentrale Plattformdienste großer Torwächter, um faire
+Wettbewerbsbedingungen, Marktbesteitbarkeit und den Schutz von Nutzern
+und Unternehmen im digitalen Sektor zu gewährleisten.</td>
+</tr>
+<tr class=""even"">
+<td>284</td>
+<td>BSI - IT-Grundschutz-Kompendium</td>
+<td>Der BSI IT-Grundschutz ist ein standardisiertes Konzept des BSI, das
+Organisationen durch modulare Bausteine und standardisierte Maßnahmen
+einen effizienten Aufbau und Nachweis eines
+Informationssicherheitsmanagementsystems ermöglicht, um IT-Systeme
+kostengünstig und praxisnah vor Bedrohungen zu schützen.</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
+"
+12;QB-12_FeatureEngineering;QB-12 FeatureEngineering;QB-12 Merkmalsentwicklung;Feature Engineering wandelt Rohdaten um, verbessert ML-Modelle durch relevante, generalisierbare, skalierbare Features.;;Qualitätsbaustein;;1;;QB-12;"<!DOCTYPE html>
+
+<html lang="""" xml:lang="""" xmlns=""http://www.w3.org/1999/xhtml"">
+<head>
+<meta charset=""utf-8""/>
+<meta content=""pandoc"" name=""generator""/>
+<meta content=""width=device-width, initial-scale=1.0, user-scalable=yes"" name=""viewport""/>
+<title>-</title>
+<style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type=""checkbox""] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<h2 id=""qb-12-feature-engineering"">QB-12 Feature Engineering</h2>
+<h3 id=""beschreibung"">Beschreibung</h3>
+<p>Feature Engineering ist ein wichtiger Schritt im maschinellen Lernen
+und in der Datenvorverarbeitung. Es bezieht sich auf den Prozess, aus
+den Rohdaten relevante Merkmale (Features) zu erstellen/auszuwählen oder
+bestehende Merkmale so zu transformieren, dass sie für das Modell besser
+nutzbar werden. Die Merkmale sollten folgende Aspekte umfassen:</p>
+<h4 id=""relevanz"">Relevanz</h4>
+<p>Features sollten relevant für die Aufgabe sein. Sie müssen eine
+signifikante Beziehung zur Zielvariable haben, damit das Modell gültige
+Vorhersagen oder Klassifikationen vornehmen kann.</p>
+<h4 id=""verständlichkeit"">Verständlichkeit</h4>
+<p>Die transformierten Features sollten möglichst klar und verständlich
+sein. Sowohl für diejenigen, die die Modelle entwickeln, als auch für
+diejenigen, die die Ergebnisse interpretieren, ist es wichtig, die
+Features zu verstehen.</p>
+<h4 id=""informationsgewinn"">Informationsgewinn</h4>
+<p>Ein gutes Feature bringt neue Informationen oder Erkenntnisse, die
+nicht bereits in anderen Features vorhanden sind. Dies kann die
+Vorhersagekraft des Modells erhöhen.</p>
+<h4 id=""redundanzvermeidung"">Redundanzvermeidung</h4>
+<p>Features sollten nicht redundant sein, d.h., sie sollten keine Kopien
+oder nahezu identische Versionen anderer Features im Datensatz sein.
+Redundante Features können zu unnötiger Komplexität und zu Überanpassung
+(Overfitting) führen.</p>
+<h4 id=""generalisierbarkeit"">Generalisierbarkeit</h4>
+<p>Die erstellten Features sollten gut generalisieren und auch auf neue,
+unbekannte Daten anwendbar sein, um das Modell robust gegenüber
+Datenveränderungen zu machen.</p>
+<h4 id=""skalierbarkeit"">Skalierbarkeit</h4>
+<p>Feature Engineering sollte effizient und skalierbar sein. Die
+Erstellung und Verarbeitung von Features sollten nicht zu rechenintensiv
+sein insbesondere, wenn große Datensätze vorliegen.</p>
+<h3 id=""maßnahmen"">Maßnahmen</h3>
+<table class=""Table Grid"">
+<thead>
+<tr class=""header"">
+<th>Maßnahme</th>
+<th>Kurzbeschr.</th>
+</tr>
+</thead>
+<tbody>
+<tr class=""odd"">
+<td>MA-01 Datentyp Validierung</td>
+<td>Eine sorgfältige Validierung der Datentypen stellt sicher, dass
+Trainings- und Eingabedaten den erwarteten Typen des Modells
+entsprechen, wodurch fehlerhafte Datenpunkte erkannt und gegebenenfalls
+korrigiert oder entfernt werden können.</td>
+</tr>
+<tr class=""even"">
+<td>MA-02 Format Prüfung</td>
+<td>Inhalte mittels Formatierungsprüfung auf Korrektheit prüfen</td>
+</tr>
+<tr class=""odd"">
+<td>MA-03_Range Check</td>
+<td>Bereichsprüfung erkennt Ausreißer und falsche Daten in
+Merkmalen</td>
+</tr>
+<tr class=""even"">
+<td>MA-06_Expert Evaluation</td>
+<td>Ein Experte prüft die Daten manuell.</td>
+</tr>
+<tr class=""odd"">
+<td>MA-12 Abdeckung relevanter Merkmale</td>
+<td>Abdeckung aller wichtigen Merkmale im Datensatz zur
+Modellierung.</td>
+</tr>
+<tr class=""even"">
+<td>MA-14 EDA-Explorative Daten Analyse</td>
+<td>Die Explorative Datenanalyse (EDA) dient dazu, Hauptmerkmale, Muster
+und Anomalien in Datensätzen zu entdecken, um ein tiefes Verständnis der
+Daten für fundierte weitere Analyseschritte zu entwickeln.</td>
+</tr>
+<tr class=""odd"">
+<td>MA-17_MetadataManagement</td>
+<td>Metadaten sind beschreibende Daten über andere Daten, die deren
+Verwaltung, Analyse und Nutzung erleichtern und im Trainingsprozess zur
+Verbesserung von Trainingsdatensätzen eingesetzt werden können.</td>
+</tr>
+<tr class=""even"">
+<td>MA-23 Merkmalsskalierung</td>
+<td>Feature Scaling passt die Merkmale eines Datensatzes an einen
+einheitlichen Bereich an, um Unterschiede in den Skalierungen zu
+reduzieren und sicherzustellen, dass maschinelle Lernalgorithmen
+effizienter arbeiten und genauere Vorhersagen liefern können.</td>
+</tr>
+<tr class=""odd"">
+<td>MA-24 Merkmalserstellung</td>
+<td>Methoden zur Generierung neuer Merkmale aus Rohdaten, um die
+Leistung von maschinellen Lernmodellen zu verbessern.</td>
+</tr>
+<tr class=""even"">
+<td>MA-27 StatisticalBasics</td>
+<td>Sammelobjekt für statistische Grundlagen</td>
+</tr>
+</tbody>
+</table>
+<h3 id=""referenzen"">Referenzen</h3>
+<table class=""Table Grid"">
+<thead>
+<tr class=""header"">
+<th>RefID</th>
+<th>Verweis</th>
+<th>Kurzbeschr.</th>
+</tr>
+</thead>
+<tbody>
+<tr class=""odd"">
+<td>4</td>
+<td>ISO 8000-61:2016 - Data quality — Part 61: Data quality management:
+Process reference model</td>
+<td>Das Dokument beschreibt den Datenqualitätsmanagementprozess als
+steuerbaren, wiederholbaren und verbesserbaren Ablauf (PDCA), betont die
+kontinuierliche Verbesserung der Daten bei Fehlern und die Einbeziehung
+verschiedener Stakeholder wie Nutzer, Management und Datenmanager.</td>
+</tr>
+<tr class=""even"">
+<td>10</td>
+<td>ISO/TS 8000-81:2021 - Data quality — Part 81: Data quality
+assessment: Profiling</td>
+<td>Die ISO/TS 8000-81:2021 legt ein Verfahren für Datenprofiling zur
+Bewertung der Datenqualität fest, das sich auf Strukturanalyse,
+Spaltenanalyse und Beziehungsanalyse konzentriert. Sie ist auf
+tabellarische Daten anwendbar, behandelt jedoch keine Methoden zur
+Datenextraktion oder Regelableitung und kann sowohl eigenständig als
+auch zusammen mit Qualitätsmanagementsystem-Standards verwendet
+werden.</td>
+</tr>
+<tr class=""odd"">
+<td>11</td>
+<td>ISO/TS 8000-82:2022 - Data quality — Part 82: Data quality
+assessment: Creating data rules</td>
+<td>Die ISO/TS 8000-82:2022 behandelt die Datenqualitätsbewertung durch
+Anwendung von Datenregeln auf verschiedene Datentypen, einschließlich
+Identifikatoren, Währungen und Datums-/Zeitangaben. Sie betont die
+Bedeutung von Datenprofiling bei der Formulierung effektiver
+Datenregeln, um die Integrität und Zuverlässigkeit von Daten in
+Informationssystemen sicherzustellen.</td>
+</tr>
+<tr class=""even"">
+<td>19</td>
+<td>ISO/IEC 5259-3:2024 - Artificial intelligence — Data quality for
+analytics and machine learning (ML) — Part 3: Data quality management
+requirements and guidelines</td>
+<td>Dieses Dokument definiert allgemeine Anforderungen und Leitlinien
+für die Verbesserung, Implementierung und Aufrechterhaltung der
+Datenqualität in Analytik und maschinellem Lernen, anwendbar auf alle
+Organisationen unabhängig von Art, Größe oder Beschaffenheit, ohne
+detaillierte Prozesse, Methoden oder Metriken vorzugeben.</td>
+</tr>
+<tr class=""odd"">
+<td>24</td>
+<td>ISO/IEC 8183:2023 - Information technology — Artificial intelligence
+— Data life cycle framework</td>
+<td>Das Dokument definiert die Phasen und Maßnahmen der
+Datenverarbeitung im Lebenszyklus von KI-Systemen und ist für alle
+Organisationen unabhängig von deren Art, Größe oder Natur
+anwendbar.</td>
+</tr>
+<tr class=""even"">
+<td>29</td>
+<td>ISO/IEC 23053:2022 - Framework for AI systems using machine
+learning</td>
+<td>Das Dokument legt ein Rahmenwerk für KI- und ML-Systeme fest, das
+die Systemkomponenten und Funktionen im KI-Ökosystem beschreibt und für
+alle Organisationstypen und -größen anwendbar ist.</td>
+</tr>
+<tr class=""odd"">
+<td>143</td>
+<td>ISO/IEC 27701:2019 - Extension to ISO/IEC 27001 and ISO/IEC 27002
+for privacy information management</td>
+<td>Sicherheitstechniken – Erweiterung auf ISO/IEC 27001 und ISO/IEC
+27002 für das Datenschutzinformationsmanagement – ​​Anforderungen und
+Richtlinien</td>
+</tr>
+<tr class=""even"">
+<td>237</td>
+<td>Digital Services Act - Verordnung (EU) 2022/2065 des Europäischen
+Parlaments und des Rates vom 19. Oktober 2022 über einen Binnenmarkt für
+digitale Dienste und zur Änderung der Richtlinie 2000/31/EG (Gesetz über
+digitale Dienste) (Text von Bedeutung für den EWR)</td>
+<td>Die Verordnung (EU) 2022/2065 über digitale Dienste harmonisiert
+Vorschriften für Vermittlungsdienste in der EU, stärkt den Schutz von
+Grundrechten, bekämpft rechtswidrige Inhalte und schafft ein sicheres,
+transparentes Online-Umfeld.</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
+"
+13;QB-13_DataPreparation;QB-13 DataPreparation;QB-13 Datenvorbereitung;Die Datenvorbereitung bezieht sich auf alle Datentransformationsschritte, die erforderlich sind, um Rohdaten in eine initial nutzbare Form zu bringen, die für das Training eines Machine-Learning-Modells geeignet sind.;;Qualitätsbaustein;;1;;QB-13;"<!DOCTYPE html>
+
+<html lang="""" xml:lang="""" xmlns=""http://www.w3.org/1999/xhtml"">
+<head>
+<meta charset=""utf-8""/>
+<meta content=""pandoc"" name=""generator""/>
+<meta content=""width=device-width, initial-scale=1.0, user-scalable=yes"" name=""viewport""/>
+<title>-</title>
+<style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type=""checkbox""] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<h2 id=""qb-13-datenvorbereitung"">QB-13 Datenvorbereitung</h2>
+<h3 id=""beschreibung"">Beschreibung</h3>
+<p>Die Datenvorbereitung bezieht sich auf alle
+Datentransformationsschritte, die erforderlich sind, um Rohdaten in eine
+initial nutzbare Form zu bringen, die für das Training eines
+Machine-Learning-Modells geeignet sind.</p>
+<h3 id=""beispiele"">Beispiele</h3>
+<ul>
+<li><strong>Datenbereinigung</strong>: Entfernen oder Korrigieren
+fehlerhafter, unvollständiger oder irrelevanter Daten.</li>
+<li><strong>Datenintegration</strong>: Kombinieren von Daten aus
+verschiedenen Quellen, um ein konsistentes und umfassendes Dataset zu
+erstellen.</li>
+<li><strong>Datenformatierung</strong>: Umwandeln von Daten in das
+erforderliche Format, z.B. durch Normalisierung, Standardisierung,
+Scaling oder One-Hot-Encoding.</li>
+<li><strong>Datenimputation</strong>: Auffüllen fehlender Werte durch
+Schätzungen oder Ersatzmethoden.</li>
+<li><strong>Sampling und Partitionierung</strong>: Aufteilen der Daten
+in Trainings-, Validierungs- und Test-Sets, um die Modellleistung zu
+evaluieren</li>
+<li><strong>Data Privacy</strong>: Daten werden vor dem Training
+speziell aufbereitet um den Trainingseffekt auf das Modell zu erhalten
+aber robust gegen spätere Extraktionsangriffe zu sein.</li>
+</ul>
+<h3 id=""maßnahmen"">Maßnahmen</h3>
+<table class=""Table Grid"">
+<thead>
+<tr class=""header"">
+<th>Maßnahme</th>
+<th>Kurzbeschr.</th>
+</tr>
+</thead>
+<tbody>
+<tr class=""odd"">
+<td>MA-02 Format Prüfung</td>
+<td>Inhalte mittels Formatierungsprüfung auf Korrektheit prüfen</td>
+</tr>
+<tr class=""even"">
+<td>MA-03_Range Check</td>
+<td>Bereichsprüfung erkennt Ausreißer und falsche Daten in
+Merkmalen</td>
+</tr>
+<tr class=""odd"">
+<td>MA-04_Over-Undersampling</td>
+<td>Oversampling erhöht die Anzahl der Minderheitenklasse durch kopierte
+oder synthetische Beispiele, oft mit SMOTE, während beim Undersampling
+Datenpunkte der Majoritätsklasse entfernt werden, um ein
+Klassen-Gleichgewicht zu erreichen.</td>
+</tr>
+<tr class=""even"">
+<td>MA-13 Vollständige Information in Datensätzen</td>
+<td>Prüfung ob Informationen nach einem bestimmtem Verlustschema fehlen
+(MCAR, MAR, MNAR)</td>
+</tr>
+<tr class=""odd"">
+<td>MA-14 EDA-Explorative Daten Analyse</td>
+<td>Die Explorative Datenanalyse (EDA) dient dazu, Hauptmerkmale, Muster
+und Anomalien in Datensätzen zu entdecken, um ein tiefes Verständnis der
+Daten für fundierte weitere Analyseschritte zu entwickeln.</td>
+</tr>
+<tr class=""even"">
+<td>MA-16 Daten Imputation</td>
+<td>Imputation ist die Vervollständigung fehlender Daten in einem
+Datensatz, um die Integrität für den Lernprozess von ML-Modellen zu
+gewährleisten, wobei der Grund für das Fehlen der Daten entscheidend für
+die Wahl des Imputationsverfahrens ist.</td>
+</tr>
+<tr class=""odd"">
+<td>MA-17_MetadataManagement</td>
+<td>Metadaten sind beschreibende Daten über andere Daten, die deren
+Verwaltung, Analyse und Nutzung erleichtern und im Trainingsprozess zur
+Verbesserung von Trainingsdatensätzen eingesetzt werden können.</td>
+</tr>
+<tr class=""even"">
+<td>MA-23 Merkmalsskalierung</td>
+<td>Feature Scaling passt die Merkmale eines Datensatzes an einen
+einheitlichen Bereich an, um Unterschiede in den Skalierungen zu
+reduzieren und sicherzustellen, dass maschinelle Lernalgorithmen
+effizienter arbeiten und genauere Vorhersagen liefern können.</td>
+</tr>
+<tr class=""odd"">
+<td>MA-24 Merkmalserstellung</td>
+<td>Methoden zur Generierung neuer Merkmale aus Rohdaten, um die
+Leistung von maschinellen Lernmodellen zu verbessern.</td>
+</tr>
+<tr class=""even"">
+<td>MA-25 Differential Privacy</td>
+<td>Schutz individueller Daten durch zufällige Rauschzusätze.</td>
+</tr>
+<tr class=""odd"">
+<td>MA-27 StatisticalBasics</td>
+<td>Sammelobjekt für statistische Grundlagen</td>
+</tr>
+<tr class=""even"">
+<td>MA-29_Data Splitting</td>
+<td>Data-Splitting beschreibt die Strategien zur Aufteilung von
+Trainingsdatensätzen.</td>
+</tr>
+</tbody>
+</table>
+<h3 id=""referenzen"">Referenzen</h3>
+<table class=""Table Grid"">
+<thead>
+<tr class=""header"">
+<th>RefID</th>
+<th>Verweis</th>
+<th>Kurzbeschr.</th>
+</tr>
+</thead>
+<tbody>
+<tr class=""odd"">
+<td>4</td>
+<td>ISO 8000-61:2016 - Data quality — Part 61: Data quality management:
+Process reference model</td>
+<td>Das Dokument beschreibt den Datenqualitätsmanagementprozess als
+steuerbaren, wiederholbaren und verbesserbaren Ablauf (PDCA), betont die
+kontinuierliche Verbesserung der Daten bei Fehlern und die Einbeziehung
+verschiedener Stakeholder wie Nutzer, Management und Datenmanager.</td>
+</tr>
+<tr class=""even"">
+<td>10</td>
+<td>ISO/TS 8000-81:2021 - Data quality — Part 81: Data quality
+assessment: Profiling</td>
+<td>Die ISO/TS 8000-81:2021 legt ein Verfahren für Datenprofiling zur
+Bewertung der Datenqualität fest, das sich auf Strukturanalyse,
+Spaltenanalyse und Beziehungsanalyse konzentriert. Sie ist auf
+tabellarische Daten anwendbar, behandelt jedoch keine Methoden zur
+Datenextraktion oder Regelableitung und kann sowohl eigenständig als
+auch zusammen mit Qualitätsmanagementsystem-Standards verwendet
+werden.</td>
+</tr>
+<tr class=""odd"">
+<td>19</td>
+<td>ISO/IEC 5259-3:2024 - Artificial intelligence — Data quality for
+analytics and machine learning (ML) — Part 3: Data quality management
+requirements and guidelines</td>
+<td>Dieses Dokument definiert allgemeine Anforderungen und Leitlinien
+für die Verbesserung, Implementierung und Aufrechterhaltung der
+Datenqualität in Analytik und maschinellem Lernen, anwendbar auf alle
+Organisationen unabhängig von Art, Größe oder Beschaffenheit, ohne
+detaillierte Prozesse, Methoden oder Metriken vorzugeben.</td>
+</tr>
+<tr class=""even"">
+<td>24</td>
+<td>ISO/IEC 8183:2023 - Information technology — Artificial intelligence
+— Data life cycle framework</td>
+<td>Das Dokument definiert die Phasen und Maßnahmen der
+Datenverarbeitung im Lebenszyklus von KI-Systemen und ist für alle
+Organisationen unabhängig von deren Art, Größe oder Natur
+anwendbar.</td>
+</tr>
+<tr class=""odd"">
+<td>56</td>
+<td>DIN SPEC 92005:2024-03, Künstliche Intelligenz_- Quantifizierung von
+Unsicherheiten im Maschinellen Lernen; Text Englisch</td>
+<td>Diese DIN SPEC definiert allgemeine Richtlinien und technische
+Anforderungen für die Quantifizierung von Unsicherheiten im maschinellen
+Lernen (ML) und bietet einen Überblick über verfügbare Ansätze und deren
+Anwendung, jedoch ohne spezifische Anforderungen für sicherheits- und
+gesundheitsschutzrelevante Funktionen.</td>
+</tr>
+<tr class=""even"">
+<td>143</td>
+<td>ISO/IEC 27701:2019 - Extension to ISO/IEC 27001 and ISO/IEC 27002
+for privacy information management</td>
+<td>Sicherheitstechniken – Erweiterung auf ISO/IEC 27001 und ISO/IEC
+27002 für das Datenschutzinformationsmanagement – ​​Anforderungen und
+Richtlinien</td>
+</tr>
+<tr class=""odd"">
+<td>180</td>
+<td>The elements of statistical learning: data mining, inference, and
+prediction</td>
+<td>Dieses Buch bietet einen umfassenden Überblick über
+Schlüsselkonzepte des Data Mining in Bereichen wie Medizin und Finanzen
+und konzentriert sich dabei auf überwachtes und unüberwachtes Lernen. Es
+behandelt Themen wie neuronale Netze, Boosting und fügt neue Inhalte zu
+Random Forests, Ensemble-Methoden und dem Umgang mit „großen“ Daten
+hinzu. Es ist nützlich für Statistiker und diejenigen, die in der
+Wissenschaft oder Industrie tätig sind.</td>
+</tr>
+<tr class=""even"">
+<td>183</td>
+<td>Statistik: Der Weg zur Datenanalyse</td>
+<td>Das Lehrbuch bietet eine Einführung in deskriptive und induktive
+Statistik sowie explorative Datenanalyse. Es enthält zahlreiche
+Grafiken, Anwendungsbeispiele mit realen Daten, R-Codes und Datensätze.
+Eine Einführung in die Programmiersprache R ist ebenfalls enthalten. Die
+9. Auflage bietet überarbeitete Inhalte und Zugriff auf über 100
+Lernfragen in der Springer-Nature-Flashcards-App.</td>
+</tr>
+<tr class=""odd"">
+<td>187</td>
+<td>Extracting Training Data from Large Language Models</td>
+<td>Das Papier zeigt, dass große Sprachmodelle wie GPT-2 anfällig für
+Datenextraktionsangriffe sind, bei denen sensible Informationen aus den
+Trainingsdaten wiederhergestellt werden können. Größere Modelle sind
+dabei besonders gefährdet. Die Autoren schlagen Schutzmaßnahmen vor, um
+dieses Risiko zu verringern.</td>
+</tr>
+<tr class=""even"">
+<td>206</td>
+<td>Open Data Act</td>
+<td>RICHTLINIE (EU) 2019/ 1024 DES EUROPÄISCHEN PARLAMENTS UND DES RATES
+- vom 20. Juni 2019 - über offene Daten und die Weiterverwendung von
+Informationen des öffentlichen Sektors</td>
+</tr>
+<tr class=""odd"">
+<td>211</td>
+<td>Microsoft AI Red Team | Microsoft Learn</td>
+<td>Auf der Seite des Microsoft AI Red Team wird das Testen von
+KI-Systemen auf Sicherheitsrisiken beschrieben, wobei der Schwerpunkt
+auf Bedrohungsmodellierung und Risikominderung liegt, um KI vor
+gegnerischen Bedrohungen zu schützen..</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
+"
+14;QB-14_Expertanalysis;QB-14 Expertanalysis;QB-14_Expertanalysis;Die Expertenanalyse ist ein Allzweckwerkzeug um die Qualität eines Trainingsdatensatzes hinsichtlich bestimmter Kriterien zu prüfen. Idealerweise werden dafür mehrere Expert\*innen unabhängig voneinander um eine Einschätzung gebeten.;;Qualitätsbaustein;;1;;QB-14;"<!DOCTYPE html>
+
+<html lang="""" xml:lang="""" xmlns=""http://www.w3.org/1999/xhtml"">
+<head>
+<meta charset=""utf-8""/>
+<meta content=""pandoc"" name=""generator""/>
+<meta content=""width=device-width, initial-scale=1.0, user-scalable=yes"" name=""viewport""/>
+<title>-</title>
+<style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type=""checkbox""] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<h2 id=""qb-14-expertenanalyse"">QB-14 Expertenanalyse</h2>
+<h3 id=""beschreibung"">Beschreibung</h3>
+<p>Die Expertenanalyse ist ein Allzweckwerkzeug um die Qualität eines
+Trainingsdatensatzes hinsichtlich bestimmter Kriterien zu prüfen.
+Idealerweise werden dafür mehrere Expert*innen unabhängig voneinander um
+eine Einschätzung gebeten. Dafür führt das Fachpersonal zahlreiche Tests
+durch die - je nach Zielrichtung - unterschiedliche Ausprägungen
+annehmen können. Die Einschätzung bzw. Ergebnisse werden anonym geteilt,
+um sogenannte ""Mitläufer-"" oder ""Halo-Effekte"" auszuschließen.</p>
+<p>Synonyme für die Expertenanalyse können Begriffen wie Fachanalyse,
+Fachbegutachtung, Fachgutachten, Expertengutachten und fachliche
+Bewertung umfassen.</p>
+<h3 id=""beispiele"">Beispiele</h3>
+<h4 id=""medizinische-bildgebung"">Medizinische Bildgebung</h4>
+<p>Die Auswertung von Röntgen- und MRI-Aufnahmen. Auch eine Beurteilung
+anderer Kriterien bspw. Repräsentativität der Bilder für reale Szenarien
+können durch Expertengruppen evaluiert werden.</p>
+<h4 id=""natural-language-processing"">Natural Language Processing</h4>
+<p>Analyse von Kundenserviceanfragen. Linguisten und
+Kundenservice-Experten arbeiten zusammen, um die Trainingsdaten zu
+analysieren und zu annotieren.</p>
+<h3 id=""maßnahmen"">Maßnahmen</h3>
+<table class=""Table Grid"">
+<thead>
+<tr class=""header"">
+<th>Maßnahme</th>
+<th>Kurzbeschr.</th>
+</tr>
+</thead>
+<tbody>
+<tr class=""odd"">
+<td>MA-06_Expert Evaluation</td>
+<td>Ein Experte prüft die Daten manuell.</td>
+</tr>
+<tr class=""even"">
+<td>MA-10_ManualWeights</td>
+<td>Manuelle Gewichtung reduziert Bias und verbessert
+Generalisierung.</td>
+</tr>
+<tr class=""odd"">
+<td>MA-14 EDA-Explorative Daten Analyse</td>
+<td>Die Explorative Datenanalyse (EDA) dient dazu, Hauptmerkmale, Muster
+und Anomalien in Datensätzen zu entdecken, um ein tiefes Verständnis der
+Daten für fundierte weitere Analyseschritte zu entwickeln.</td>
+</tr>
+<tr class=""even"">
+<td>MA-15 Empirische Evidenz</td>
+<td>Vergleich ähnlicher Fälle ermöglicht Rückschlüsse auf
+Maßnahmeneffektivität.</td>
+</tr>
+<tr class=""odd"">
+<td>MA-21_Compliance</td>
+<td>Bei der Behandlung von Trainingsdaten müssen Gesetzgebung und
+diverse Standards eingehalten werden.</td>
+</tr>
+<tr class=""even"">
+<td>MA-22 Vertrauenswürdigkeit</td>
+<td>Glaubwürdigkeit, Vertrauenswürdigkeit der Datenquelle muss bestätigt
+werden</td>
+</tr>
+</tbody>
+</table>
+<h3 id=""referenzen"">Referenzen</h3>
+<table class=""Table Grid"">
+<thead>
+<tr class=""header"">
+<th>RefID</th>
+<th>Verweis</th>
+<th>Kurzbeschr.</th>
+</tr>
+</thead>
+<tbody>
+<tr class=""odd"">
+<td>23</td>
+<td>ISO/IEC 5392:2024 - Information technology — Artificial intelligence
+— Reference architecture of knowledge engineering</td>
+<td>Das Dokument definiert eine Referenzarchitektur für
+Wissensengineering in der Künstlichen Intelligenz und bietet ein
+gemeinsames Vokabular, indem es Rollen, Aktivitäten, Schichten,
+Komponenten und deren Beziehungen beschreibt.</td>
+</tr>
+<tr class=""even"">
+<td>101</td>
+<td>CRISP-DM 1.0: Step-by-step data mining guide</td>
+<td>CRISP-DM wurde von erfahrenen Data-Mining-Praktikern entwickelt, um
+mit einem branchenneutralen und frei verfügbaren Standardprozessmodell
+einen gemeinsamen, erprobten Leitfaden für effiziente, qualitativ
+hochwertige und wiederholbare Data-Mining-Projekte bereitzustellen.</td>
+</tr>
+<tr class=""odd"">
+<td>199</td>
+<td>What is red teaming for generative AI? - IBM Research</td>
+<td>Dieses Dokument beschreibt eine Methodik zur Auswahl, Anwendung und
+Verwaltung formaler Methoden zur Bewertung und zum Nachweis der
+Robustheitseigenschaften von neuronalen Netzen.</td>
+</tr>
+<tr class=""even"">
+<td>208</td>
+<td>Planen von Red Teaming für große Sprachmodelle (Large Language
+Models, LLMs) und deren Anwendungen - Azure OpenAI Service | Microsoft
+Learn</td>
+<td>Diese MS-Seite zu Red Teaming für große Sprachmodelle (LLMs)
+konzentriert sich auf das Testen von KI-Systemen, um Risiken wie die
+Generierung schädlicher Inhalte zu erkennen. Es unterstreicht die
+Bedeutung vielfältiger Teams und einer gründlichen Bewertung, um die
+Sicherheit und Verantwortung der KI zu gewährleisten.</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
+"
+15;QB-15_Bias-Mitigation;QB-15 Bias-Mitigation;QB-15 Bias-Mitigation;Der Baustein beschreibt technische Verfahren zur Reduzierung von Verzerrungen in KI-Modellen, die idealerweise bereits bei der Datenerhebung ansetzen und sich je nach Zeitpunkt ihres Einsatzes im Entwicklungszyklus in Präprozessierungs-, Inprozessierungs- und Postprozessierungsmethoden gliedern, wie anhand eines Bewerbungs-Beispiels veranschaulicht wird.;;Qualitätsbaustein;;1;;QB-15;"<!DOCTYPE html>
+
+<html lang="""" xml:lang="""" xmlns=""http://www.w3.org/1999/xhtml"">
+<head>
+<meta charset=""utf-8""/>
+<meta content=""pandoc"" name=""generator""/>
+<meta content=""width=device-width, initial-scale=1.0, user-scalable=yes"" name=""viewport""/>
+<title>-</title>
+<style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type=""checkbox""] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<h2 id=""qb-15_bias-mitigation"">QB-15_Bias-Mitigation</h2>
+<h3 id=""beschreibung"">Beschreibung</h3>
+<p>Der Baustein Bias-Mitigation erläutert technische Verfahren zur
+Reduzierung oder Verhinderung von Verzerrungen (Bias) in KI-Modellen.
+Bias-Mitigation-Maßnahmen lassen sich je nach Zeitpunkt ihres Einsatzes
+im Entwicklungszyklus in drei Klassen einteilen:</p>
+<ul>
+<li><strong>Präprozessierungsmethoden</strong>: Veränderungen an den
+Trainingsdaten vor dem Modelltraining, um Ungleichgewichte auszugleichen
+(z. B. Label-Massaging, Upsampling/Downsampling, SMOTE).</li>
+<li><strong>Inprozessierungsmethoden</strong>: Anpassung des
+Lernverfahrens selbst, etwa durch Regularisierung oder adversariales
+Training, um Bias während des Trainings direkt zu minimieren.</li>
+<li><strong>Postprozessierungsmethoden</strong>: Nachträgliche Anpassung
+der Modellausgaben, zum Beispiel durch Calibrations oder
+Fairness-Constraints auf Score-Ebene.</li>
+</ul>
+<p>Idealerweise beginnt Bias-Mitigation bereits bei der Datenerhebung
+durch sorgfältiges Studiendesign und geeignete Frage- und
+Aufnahmesysteme. Wo das nicht vollständig möglich ist, gleichen die
+vorgestellten Verfahren verbleibende Verzerrungen aus.</p>
+<p>Im vorliegenden Kapitel veranschaulichen wir die Methoden anhand
+eines Bewerbungs-Beispiels: KI-Modelle bewerten quantifizierbare
+Merkmale von Bewerbenden (z. B. Bildungsabschluss, Berufserfahrung,
+Sprachkenntnisse) und sagen binär voraus, ob eine Person eingestellt
+wird. Bias kann auch dann entstehen, wenn sensitive Merkmale wie
+Geschlechtsidentität nur implizit in den Daten abgebildet sind
+(„Fairness through Unawareness“ verhindert Bias nicht).</p>
+<p><strong>Synonyme für Bias-Mitigation</strong> sind unter anderem
+„Verzerrungsreduktion“, „Bias-Reduktion“, „Fairness-Enhancement“ oder
+„Bias Correction“. Allen Begriffen gemeinsam ist das Ziel, erkannte oder
+latente Benachteiligungen aktiv zu verringern.</p>
+<h3 id=""beispiele"">Beispiele</h3>
+<h4 id=""beispiel-1-präprozessierung-mit-smote"">Beispiel 1:
+Präprozessierung mit SMOTE</h4>
+<p>Im Bewerbungs-Szenario zeigt sich, dass deutlich weniger Bewerbungen
+von Frauen vorliegen. Mithilfe von <strong>SMOTE</strong> (QM-57
+Synthetic Minority Over-sampling Technique) werden synthetische
+Datenpunkte für die unterrepräsentierte Gruppe erzeugt, sodass das
+Trainingsset ausgeglichener wird. Dadurch lernt das Modell Muster, die
+auch für die Minderheit repräsentativ sind, und erzielt eine faire
+Vorhersageleistung über alle Subpopulationen hinweg.</p>
+<h4 id=""beispiel-2-inprozessierung-mit-learning-fair-representations"">Beispiel
+2: Inprozessierung mit Learning Fair Representations</h4>
+<p>Bei der Inprozessierung nutzen wir den Algorithmus <strong>Learning
+Fair Representations (LFR)</strong>. Hierbei werden Prototypen als
+latente Repräsentationen gelernt, die einerseits die Informationskraft
+für die Einstellungsentscheidung maximieren und andererseits
+sicherstellen, dass Bewerbende verschiedener Gruppen gleich häufig auf
+die Prototypen projiziert werden (statistische Parität). Ergänzend kann
+adversariales Training eingesetzt werden, um ein Detektor-Netzwerk zu
+verhindern, das Gruppenunterschiede aus den Repräsentationen
+extrahiert.</p>
+<h3 id=""maßnahmen"">Maßnahmen</h3>
+<table class=""Table Grid"">
+<thead>
+<tr class=""header"">
+<th>Maßnahme</th>
+<th>Kurzbeschr.</th>
+</tr>
+</thead>
+<tbody>
+<tr class=""odd"">
+<td>MA-30_Fairness</td>
+<td>Fairness im Machine Learning bezeichnet Techniken (z. B. SMOTE,
+LFR), die systematische Verzerrungen in Daten und Modellen korrigieren,
+um gerechte, gleichbehandelte Vorhersagen für alle demografischen
+Gruppen zu gewährleisten.</td>
+</tr>
+</tbody>
+</table>
+<h3 id=""referenzen"">Referenzen</h3>
+<table class=""Table Grid"">
+<thead>
+<tr class=""header"">
+<th>RefID</th>
+<th>Verweis</th>
+<th>Kurzbeschr.</th>
+</tr>
+</thead>
+<tbody>
+<tr class=""odd"">
+<td>131</td>
+<td>Security of AI-Systems: Fundamentals - Adversarial Deep
+Learning</td>
+<td>Im Projekt 464, Teilprojekt 1 Sicherheit von KI-Systemen:
+Adversariales Deep Learning, untersuchte das BSI die Sicherheit von
+Verbindungssystemen in neuronalen Netzwerken und präsentierte
+Best-Practice-Richtlinien für die Zertifizierung und Verifizierung von
+neuronalen Netzwerken sowie Verteidigungstechniken gegen Angriffe wie
+Evasion, Poisoning, Backdoor und Datenschutzangriffe.</td>
+</tr>
+<tr class=""even"">
+<td>230</td>
+<td>ISO/IEC TS 12791 - Information technology — Artificial intelligence
+— Treatment of unwanted bias in classification and regression machine
+learning tasks</td>
+<td>Information Technology – Artificial Intelligence – Behandlung
+unerwünschter Verzerrungen bei Klassifizierungs- und Regressionsaufgaben
+des maschinellen Lernens</td>
+</tr>
+<tr class=""odd"">
+<td>296</td>
+<td>Bias in der künstlichen Intelligenz</td>
+<td>Das Dokument Bias in der künstlichen Intelligenz befasst sich mit
+den Grundlagen und zeigt Detektion und Mitigationsmechanismen auf um
+Bias in den eigenen Datensätzen auf die Spur zu kommen.</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
+"

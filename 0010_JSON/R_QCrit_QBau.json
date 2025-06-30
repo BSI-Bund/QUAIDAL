@@ -1,0 +1,192 @@
+[
+    {
+        "id": 1,
+        "qbau_yaml_id": "QB-01",
+        "qcrit_yaml_id": "QKB-03"
+    },
+    {
+        "id": 2,
+        "qbau_yaml_id": "QB-02",
+        "qcrit_yaml_id": "QKB-03"
+    },
+    {
+        "id": 3,
+        "qbau_yaml_id": "QB-02",
+        "qcrit_yaml_id": "QKB-06"
+    },
+    {
+        "id": 4,
+        "qbau_yaml_id": "QB-02",
+        "qcrit_yaml_id": "QKB-04"
+    },
+    {
+        "id": 5,
+        "qbau_yaml_id": "QB-02",
+        "qcrit_yaml_id": "QKB-07"
+    },
+    {
+        "id": 6,
+        "qbau_yaml_id": "QB-03",
+        "qcrit_yaml_id": "QKB-01"
+    },
+    {
+        "id": 7,
+        "qbau_yaml_id": "QB-04",
+        "qcrit_yaml_id": "QKB-01"
+    },
+    {
+        "id": 8,
+        "qbau_yaml_id": "QB-05",
+        "qcrit_yaml_id": "QKB-01"
+    },
+    {
+        "id": 9,
+        "qbau_yaml_id": "QB-05",
+        "qcrit_yaml_id": "QKB-08"
+    },
+    {
+        "id": 10,
+        "qbau_yaml_id": "QB-05",
+        "qcrit_yaml_id": "QKB-07"
+    },
+    {
+        "id": 11,
+        "qbau_yaml_id": "QB-06",
+        "qcrit_yaml_id": "QKB-01"
+    },
+    {
+        "id": 12,
+        "qbau_yaml_id": "QB-07",
+        "qcrit_yaml_id": "QKB-02"
+    },
+    {
+        "id": 13,
+        "qbau_yaml_id": "QB-07",
+        "qcrit_yaml_id": "QKB-04"
+    },
+    {
+        "id": 14,
+        "qbau_yaml_id": "QB-08",
+        "qcrit_yaml_id": "QKB-06"
+    },
+    {
+        "id": 15,
+        "qbau_yaml_id": "QB-08",
+        "qcrit_yaml_id": "QKB-04"
+    },
+    {
+        "id": 16,
+        "qbau_yaml_id": "QB-09",
+        "qcrit_yaml_id": "QKB-10"
+    },
+    {
+        "id": 17,
+        "qbau_yaml_id": "QB-09",
+        "qcrit_yaml_id": "QKB-02"
+    },
+    {
+        "id": 18,
+        "qbau_yaml_id": "QB-09",
+        "qcrit_yaml_id": "QKB-07"
+    },
+    {
+        "id": 19,
+        "qbau_yaml_id": "QB-09",
+        "qcrit_yaml_id": "QKB-09"
+    },
+    {
+        "id": 20,
+        "qbau_yaml_id": "QB-09",
+        "qcrit_yaml_id": "QKB-05"
+    },
+    {
+        "id": 21,
+        "qbau_yaml_id": "QB-10",
+        "qcrit_yaml_id": "QKB-10"
+    },
+    {
+        "id": 22,
+        "qbau_yaml_id": "QB-10",
+        "qcrit_yaml_id": "QKB-05"
+    },
+    {
+        "id": 23,
+        "qbau_yaml_id": "QB-10",
+        "qcrit_yaml_id": "QKB-04"
+    },
+    {
+        "id": 24,
+        "qbau_yaml_id": "QB-10",
+        "qcrit_yaml_id": "QKB-07"
+    },
+    {
+        "id": 25,
+        "qbau_yaml_id": "QB-10",
+        "qcrit_yaml_id": "QKB-06"
+    },
+    {
+        "id": 26,
+        "qbau_yaml_id": "QB-10",
+        "qcrit_yaml_id": "QKB-08"
+    },
+    {
+        "id": 27,
+        "qbau_yaml_id": "QB-11",
+        "qcrit_yaml_id": "QKB-10"
+    },
+    {
+        "id": 28,
+        "qbau_yaml_id": "QB-11",
+        "qcrit_yaml_id": "QKB-04"
+    },
+    {
+        "id": 29,
+        "qbau_yaml_id": "QB-11",
+        "qcrit_yaml_id": "QKB-09"
+    },
+    {
+        "id": 30,
+        "qbau_yaml_id": "QB-12",
+        "qcrit_yaml_id": "QKB-05"
+    },
+    {
+        "id": 31,
+        "qbau_yaml_id": "QB-12",
+        "qcrit_yaml_id": "QKB-04"
+    },
+    {
+        "id": 32,
+        "qbau_yaml_id": "QB-12",
+        "qcrit_yaml_id": "QKB-06"
+    },
+    {
+        "id": 33,
+        "qbau_yaml_id": "QB-13",
+        "qcrit_yaml_id": "QKB-08"
+    },
+    {
+        "id": 34,
+        "qbau_yaml_id": "QB-14",
+        "qcrit_yaml_id": "QKB-10"
+    },
+    {
+        "id": 35,
+        "qbau_yaml_id": "QB-14",
+        "qcrit_yaml_id": "QKB-07"
+    },
+    {
+        "id": 36,
+        "qbau_yaml_id": "QB-14",
+        "qcrit_yaml_id": "QKB-05"
+    },
+    {
+        "id": 37,
+        "qbau_yaml_id": "QB-14",
+        "qcrit_yaml_id": "QKB-06"
+    },
+    {
+        "id": 38,
+        "qbau_yaml_id": "QB-15",
+        "qcrit_yaml_id": "QKB-01"
+    }
+]

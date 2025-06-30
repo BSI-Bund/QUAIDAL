@@ -1,0 +1,55 @@
+---
+Name: MA-20 Prozess Dokumentation
+Title: MA-20 Prozess Dokumentation
+TitleGer: MA-20 Prozess Dokumentation
+shortdesc: Detaillierte Prozessdokumentationen sollten alle Aktivitäten, Verantwortlichkeiten, Ressourcen, erwarteten Ergebnisse und beteiligten Personen umfassen, um den Schöpfungsprozess transparent zu machen und den Anforderungen verschiedener Normen zu entsprechen.
+sciencetopic: 
+tags:
+  - Qualitätsmaßnahme
+ID:
+  - MA-20
+ListMetricID: 
+ListMeasureID:
+  - "'QB-10'"
+  - "'QB-09'"
+  - "'QB-06'"
+share: true
+---
+## MA-20 Prozessdokumentation
+
+Durch geeignete und detaillierte Prozessdokumentationen sollten alle Aktivitäten, Verantwortlichkeiten, Ressourcen, erwarteten Ergebnisse und beteiligten Personen umfassen, um den Wertschöpfungsprozess nachvollziehbar und transparent zu machen und den Anforderungen verschiedener Normen zu entsprechen.
+### Beschreibung
+
+Prozessdokumentationen umfassen detaillierte Beschreibungen für jeden Prozessschritt, die erklären, was 
+- bei jeder Aktivität getan werden muss, 
+- wer dafür verantwortlich ist, 
+- welche Ressourcen benötigt werden und 
+- welche Ergebnisse erwartet werden.
+
+Auch für die Herkunftsanalyse (Quellenmanagement) von Daten im Schöpfungsprozess ist die Prozessdokumentation ein wichtiger Schritt. 
+
+Im Erstellungsprozess sollten auch die am Prozess beteiligten Personen/Instanzen mit dokumentiert werden. Zahlreiche Normen befassen sich im Detail mit der Dokumentation von Prozessen. 
+
+### Metriken & Methoden
+| ID                                           | Kurzbeschr.                                                                                                                                                                                                                                                                                                                                                                                   |
+| -------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| QM-15 SixSigmaProcess                        | Werkzeuge zur Prozessverbesserung und Qualitätskontrolle.                                                                                                                                                                                                                                                                                                                                     |
+| QM-31 Prozessanalysemetriken                 | Prozessbewertung bzgl. verschiedener Themen                                                                                                                                                                                                                                                                                                                                                   |
+| QM-62_Verzeichnis von Verarbeitungstätigkeit | Erfassung und regelmäßige Aktualisierung von Verarbeitungstätigkeiten, Zwecken, betroffenen Personengruppen, Empfängern, Löschfristen, Sicherheitsmaßnahmen und Rechtsgrundlagen, einschließlich der Implementierung eines Datenschutz-Managementsystems und Schulungen für Mitarbeiter.                                                                                                      |
+| QM-65_AI_or_S_Bom                            | Eine SBOM (Software Bill of Materials) und ihr KI-Pendant, der AIBOM, bieten eine umfassende und transparente Dokumentation aller Komponenten, Abhängigkeiten und Prozessinformationen – inklusive Sicherheitslücken, Versions- und Lizenzdetails sowie ethischer und Compliance-Aspekte – um potenzielle Risiken in der Software- bzw. KI-Lieferkette frühzeitig zu erkennen und zu mindern. |
+
+
+
+### Referenzen
+| RefID | Verweis                                                                                                                                                      | Kurzbeschr.                                                                                                                                                                                                                                                                                                                                                                                                               |
+| ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 27    |  ISO/IEC 22624:2020 - Information technology — Cloud computing — Taxonomy based data handling for cloud services                                             | Dieses Dokument bietet ein Rahmenwerk und Leitlinien für das taxonomiebasierte Datenmanagement in Cloud-Computing-Umgebungen, einschließlich datenbezogener Richtlinien und Praktiken, und richtet sich an Cloud-Dienstanbieter, -nutzer sowie an alle, die sich mit den Auswirkungen des Datenmanagements in Cloud-Diensten befassen.                                                                                    |
+| 34    |  ISO/IEC 25030:2019 - Systems and software engineering — Systems and software quality requirements and evaluation (SQuaRE) — Quality requirements framework  | Das Dokument bietet einen Rahmen zur Erfassung und Steuerung von Qualitätsanforderungen für Systeme, Software und Daten anhand der Modelle ISO/IEC 25010 und 25012.                                                                                                                                                                                                                                                       |
+| 38    |  ISO/IEC 42001:2023 - AI management systems                                                                                                                  | Die ISO/IEC 42001 ist ein internationaler Standard, der Anforderungen für die Einrichtung, Implementierung, Aufrechterhaltung und kontinuierliche Verbesserung eines KI-Managementsystems (AIMS) in Organisationen festlegt. Er richtet sich an Unternehmen, die KI-basierte Produkte oder Dienstleistungen anbieten oder nutzen, und stellt sicher, dass KI-Systeme verantwortungsvoll entwickelt und eingesetzt werden. |
+| 153   |  ISO 8000-66:2021 - Data quality — Part 66: Data quality management: Assessment indicators for data processing in manufacturing operations                   | Die ISO 8000-66 bietet Indikatoren zur Bewertung der Datenqualität bei der Datenverarbeitung in der Fertigung, um qualitativ hochwertige Daten für effiziente Produktionsprozesse sicherzustellen, und konzentriert sich auf das Datenqualitätsmanagement im Fertigungssektor innerhalb der gesamten ISO 8000-Reihe.                                                                                                      |
+| 199   |  What is red teaming for generative AI? - IBM Research                                                                                                       | Dieses Dokument beschreibt eine Methodik zur Auswahl, Anwendung und Verwaltung formaler Methoden zur Bewertung und zum Nachweis der Robustheitseigenschaften von neuronalen Netzen.                                                                                                                                                                                                                                       |
+| 227   |  Operations Bill of Materials (OBOM)                                                                                                                         | Die Operations Bill of Materials (OBOM) von CycloneDX ermöglicht eine umfassende Dokumentation und dynamische Aktualisierung von Laufzeitumgebungen, einschließlich Hardware, Firmware und Anwendungen, unabhängig von der Software-BOM (SBOM).                                                                                                                                                                           |
+| 247   |  Data version control                                                                                                                                        | Die Datenversionskontrolle ist ein System zum Verwalten und Nachverfolgen von Änderungen an Datensätzen, das für Datenanalyse und Forschung optimiert ist. Es bietet Funktionen, die speziell für die Handhabung großer Datensätze konzipiert sind und die Zusammenarbeit erleichtern.                                                                                                                                    |
+| 269   |  Organisation: Gestaltung wertschöpfungsorientierter Architekturen, Prozesse und Strukturen                                                                  | Das Lehrbuch vermittelt praxisorientiert und systematisch die Themen der Organisation im Kontext der Unternehmensführung, wobei es Wertschöpfungsarchitekturen als Brücke zur Unternehmensstrategie und Branchenarchitekturen nutzt, und durch Fallbeispiele und eine Überarbeitung in der 2. Auflage aktuelle Entwicklungen berücksichtigt.                                                                              |
+| 296   |  Bias in der künstlichen Intelligenz                                                                                                                         | Das Dokument Bias in der künstlichen Intelligenz befasst sich mit den Grundlagen und zeigt Detektion und Mitigationsmechanismen auf um Bias in den eigenen Datensätzen auf die Spur zu kommen.                                                                                                                                                                                                                            |
+| 297   |  ISO/IEC 33020:2019 - Information technology — Process assessment — Process measurement framework for assessment of process capability                       | Das Dokument beschreibt ein Rahmenwerk zur Bewertung und Verbesserung von Prozessen, mit dem man ihre Fähigkeit misst, zuverlässig Geschäftsziele zu erreichen, und dabei Prozessstärken und -schwächen identifiziert.                                                                                                                                                                                                    |

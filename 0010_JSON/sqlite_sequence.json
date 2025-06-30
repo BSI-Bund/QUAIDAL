@@ -1,0 +1,42 @@
+[
+    {
+        "name": "T_ZoteroReferences",
+        "seq": 241
+    },
+    {
+        "name": "R_ZRef_TO_ALL",
+        "seq": 570
+    },
+    {
+        "name": "R_QBau_QMass",
+        "seq": 95
+    },
+    {
+        "name": "R_QCrit_QBau",
+        "seq": 38
+    },
+    {
+        "name": "R_QMass_QMet",
+        "seq": 259
+    },
+    {
+        "name": "R_QMet_SCode",
+        "seq": 2
+    },
+    {
+        "name": "T_Qualitaetskriterien",
+        "seq": 10
+    },
+    {
+        "name": "T_Qualitaetsbausteine",
+        "seq": 15
+    },
+    {
+        "name": "T_Qualitaetsmassnahmen",
+        "seq": 30
+    },
+    {
+        "name": "T_Qualitaetsmetriken",
+        "seq": 139
+    }
+]
