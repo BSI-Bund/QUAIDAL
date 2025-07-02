@@ -12,7 +12,7 @@ QUAIDAL unterstützt insbesondere Anbieter von Hochrisiko-KI-Systemen bei der sy
 
 Diese Seite lebt von Ihrer Mitarbeit – sie ist ausdrücklich als lebendes Dokument konzipiert und kein endgültiges Werk. Da das wissenschaftliche Feld der KI-Forschung sich kontinuierlich und rasant weiterentwickelt, möchten wir Sie einladen, über Issues und Pull Requests aktiv Vorschläge, Korrekturen und neue Inhalte beizusteuern. Gemeinsam stellen wir sicher, dass dieser Leitfaden stets aktuell, praxisnah und zukunftsweisend bleibt
 
-[Link zu Templates für Bausteine, Maßnahmen, Metriken]
+- [Link zu den Templates](https://github.com/BSI-Bund/QUAIDAL/tree/main/0000_Markdown/9998_CustomTemplates)
 
 
 ## Anwendungsbereiche
@@ -33,15 +33,13 @@ Diese Seite lebt von Ihrer Mitarbeit – sie ist ausdrücklich als lebendes Doku
 QUAIDAL steht frei zur Verfügung:
 
 - [BSI-Website](https://www.bsi.bund.de)
-- [GitHub Repository 2 - Sourcecodes](link)
+- [GitHub Repository 2 - Sourcecodes](https://github.com/BSI-Bund/QUAIDAL-SRC)
 
 Die Inhalte sind maschinenlesbar und somit optimal in bestehende Entwicklungsprozesse integrierbar.
 
 ## Unterstützung und Kontakt
 
-Für weitere Informationen und Fragen wenden Sie sich bitte direkt an das BSI:
-
-- [Kontaktseite des BSI](https://www.bsi.bund.de)
+Für weitere Informationen und Fragen wenden Sie sich bitte direkt an das BSI
 
 ## Lizenz
 
